@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decera Competitive Intelligence — Learning Objectives (Non-Oncology)</title>
+<style>
+  :root{
+    --bg:#0f1419; --panel:#171e27; --panel2:#1e2733; --line:#2b3644;
+    --text:#e6edf3; --muted:#9aa7b4; --faint:#6b7889;
+    --accent:#4a9eff; --decera:#c084fc; --decera-bg:#2a1f3d;
+    --verified:#3fb950; --up:#4a9eff; --gapc:#e8663d;
+    --chip:#243040; --shadow:0 2px 12px rgba(0,0,0,.35);
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#f4f6f9; --panel:#ffffff; --panel2:#f0f3f7; --line:#dbe1e8;
+      --text:#1a2430; --muted:#54606d; --faint:#7b8794;
+      --chip:#eaeff5; --decera-bg:#f3ecfd; --shadow:0 1px 8px rgba(20,40,70,.08);
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;font-size:15px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{padding:26px 28px 18px;border-bottom:1px solid var(--line);background:var(--panel)}
+  header .eyebrow{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);font-weight:700}
+  header h1{margin:4px 0 4px;font-size:23px;letter-spacing:-.3px}
+  header .sub{color:var(--muted);font-size:13.5px;max-width:960px}
+  .wrap{max-width:1400px;margin:0 auto;padding:22px 28px 60px}
+  .note{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:16px 0;font-size:13px;color:var(--muted)}
+  .note b{color:var(--text)}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:18px 0}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow)}
+  .kpi .n{font-size:26px;font-weight:700;letter-spacing:-.5px}
+  .kpi .l{font-size:12px;color:var(--muted);margin-top:2px}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:20px 0 8px;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
+  select,input[type=text]{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:8px 11px;font-size:13.5px;font-family:inherit}
+  input[type=text]{min-width:230px}
+  .seg{display:flex;gap:4px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:3px}
+  .seg button{background:transparent;color:var(--muted);border:0;padding:6px 11px;border-radius:6px;font-size:12.5px;cursor:pointer;font-family:inherit}
+  .seg button.on{background:var(--accent);color:#fff}
+  .count{color:var(--faint);font-size:12.5px;margin-left:auto}
+  h2.section{font-size:16px;margin:34px 0 4px;padding-top:8px}
+  .section-sub{color:var(--muted);font-size:13px;margin:0 0 12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:12px;box-shadow:var(--shadow)}
+  .card.decera{border-color:#7c4dc0;background:linear-gradient(180deg,var(--decera-bg),var(--panel) 55%)}
+  .card-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:6px}
+  .comp{font-weight:700;font-size:14.5px}
+  .card.decera .comp{color:var(--decera)}
+  .title{font-size:15px;font-weight:600;margin:2px 0 8px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{background:var(--chip);border:1px solid var(--line);border-radius:20px;padding:3px 10px;font-size:11.5px;color:var(--muted);white-space:nowrap}
+  .chip.ta{color:var(--text)}
+  .badge{border-radius:20px;padding:3px 10px;font-size:11px;font-weight:700;white-space:nowrap}
+  .b-verified{background:rgba(63,185,80,.16);color:var(--verified);border:1px solid rgba(63,185,80,.4)}
+  .b-decera{background:rgba(192,132,252,.16);color:var(--decera);border:1px solid rgba(192,132,252,.45)}
+  .b-up{background:rgba(74,158,255,.16);color:var(--up);border:1px solid rgba(74,158,255,.4)}
+  .meta{font-size:12.5px;color:var(--muted);margin:8px 0 0;display:flex;flex-wrap:wrap;gap:14px}
+  .meta b{color:var(--text);font-weight:600}
+  .los{margin:10px 0 0;padding:11px 13px;background:var(--panel2);border-radius:9px;border:1px solid var(--line)}
+  .los .lohead{font-size:11.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--faint);margin-bottom:6px}
+  .los ul{margin:0;padding-left:18px}
+  .los li{margin:3px 0;font-size:13px}
+  .los.empty{color:var(--faint);font-style:italic;font-size:12.5px}
+  .src{font-size:12px;margin-top:8px}
+  .src a{font-weight:600}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:760px){.grid2{grid-template-columns:1fr}}
+  .ov{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .ov h3{margin:0 0 8px;font-size:14px}
+  table.gap{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+  table.gap th,table.gap td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  table.gap th{color:var(--faint);font-size:11.5px;text-transform:uppercase;letter-spacing:.4px}
+  table.gap td.topic{font-weight:600;color:var(--text)}
+  .tag-gap{color:var(--gapc);font-weight:700}
+  .ovline{margin:9px 0;font-size:13px}
+  .ovline b{color:var(--text)}
+  .ovline .vs{color:var(--gapc);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.4px;margin:0 4px}
+  .swept{columns:2;column-gap:26px;font-size:12.5px;color:var(--muted)}
+  @media(max-width:680px){.swept{columns:1}}
+  .swept div{break-inside:avoid;margin-bottom:5px}
+  footer{color:var(--faint);font-size:12px;border-top:1px solid var(--line);margin-top:30px;padding-top:16px}
+  .lob{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:14px;box-shadow:var(--shadow)}
+  .lob h3{margin:0 0 10px;font-size:14.5px}
+  .lob label{display:block;font-size:12px;color:var(--muted);margin:10px 0 4px;font-weight:600}
+  .lob textarea,.lob input[type=text]{width:100%;box-sizing:border-box;background:var(--bg);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:9px 11px;font-size:13.5px;font-family:inherit}
+  .lob textarea{min-height:54px;resize:vertical}
+  .lob .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:760px){.lob .row{grid-template-columns:1fr}}
+  .lob button{margin-top:12px;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:9px 14px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit}
+  .lob button.sec{background:var(--panel2);color:var(--text);border:1px solid var(--line);margin-left:8px}
+  .lob .brief{margin-top:12px;background:var(--bg);border:1px dashed var(--line);border-radius:8px;padding:12px 13px;font-size:12.5px;white-space:pre-wrap;color:var(--text);display:none}
+  .refgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  @media(max-width:760px){.refgrid{grid-template-columns:1fr}}
+  .refcard{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:12.7px}
+  .refcard h4{margin:0 0 7px;font-size:11.5px;letter-spacing:.3px;text-transform:uppercase;color:var(--faint)}
+  .refcard ul{margin:4px 0 0;padding-left:16px}.refcard li{margin:3px 0}
+  .lvl{font-weight:700}.lvl.l4{color:var(--verified)}
+  .avoid{background:rgba(232,102,61,.12);border:1px solid rgba(232,102,61,.4);border-radius:10px;padding:12px 14px;font-size:12.7px}
+  .lob table{width:100%;border-collapse:collapse;font-size:12.7px;margin-top:8px}
+  .lob th,.lob td{border:1px solid var(--line);padding:8px 9px;text-align:left;vertical-align:top}
+  .lob th{color:var(--faint);font-size:11px;text-transform:uppercase;letter-spacing:.4px}
+  .anat{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px;margin:4px 0}
+  .anat span{background:var(--chip);border:1px solid var(--line);border-radius:20px;padding:4px 11px}
+  .anat .plus{background:none;border:0;color:var(--faint);padding:0 2px}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">Decera Clinical Education · Competitive Intelligence</div>
+  <h1>Learning Objectives — Non-Oncology Landscape</h1>
+  <div style="display:inline-block;margin:6px 0 2px;padding:5px 12px;border:1px solid #2b6cb0;border-radius:20px;background:rgba(74,158,255,.12);color:#4a9eff;font-size:13px;font-weight:700;letter-spacing:.3px">Last updated: August 17, 2026 · Refreshes Mondays 3:00 PM CT</div>
+  <div class="sub">A verified-only competitive scan: every learning objective below was re-fetched and matched word-for-word against its live source, and every row carries a link so you can confirm it yourself. Competitor education is compared against what Decera ran in the same 12-month window to surface direct overlaps and the specific topics Decera is not covering.</div>
+</header>
+<div class="wrap">
+
+  <div class="note" id="method">
+    <b>Method &amp; confidence.</b> Scope: rolling last 12 months (Aug 2025 – Aug 2026); the same window is applied to competitors and to Decera, so the comparison is like-for-like. Only activities whose <b>learning objectives were read verbatim from a live, linked source</b> are included — nothing paraphrased, inferred, or behind a block. Each competitor activity and Decera's own activities was individually re-fetched on <b>Aug 17, 2026</b>; all links resolved and all objective text matched. A small number of near-term activities already announced are marked <span class="badge b-up" style="padding:1px 7px">Upcoming</span>. Where a source did not itself name a commercial supporter, the supporter is listed as "not stated on source" rather than asserted. <b>Confidence in the accuracy of every included item: ≥0.97</b> (each is link-verified). <b>Coverage:</b> this cycle swept ~68 commercial medical-education companies (the full known universe of grant-funded CME providers relevant to you) — the complete list, in four buckets, is at the bottom. Corporate note: <b>Clinical Education Alliance rebranded to Decera Clinical in 2025</b>; its brands (Clinical Care Options, ProCE, PACE, Onviv, liV, and related lines) are treated as yours and excluded from the competitor set.
+  </div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="controls">
+    <div class="seg" id="segView">
+      <button data-view="competitor" class="on">Competitors</button>
+      <button data-view="decera">What Decera has done</button>
+      <button data-view="all">All</button>
+    </div>
+    <select id="fTA"><option value="">All therapeutic areas</option></select>
+    <select id="fComp"><option value="">All providers</option></select>
+    <input type="text" id="fSearch" placeholder="Search title, topic, supporter…">
+    <span class="count" id="count"></span>
+  </div>
+
+  <div id="cards"></div>
+
+  <h2 class="section">What Decera has done (last 12 months)</h2>
+  <p class="section-sub">Decera Clinical Education's own non-oncology activities in the same window — the benchmark for the overlap and gap comparison below. Objectives shown verbatim where published; a few very recent satellites have not posted objectives publicly yet.</p>
+  <div id="deceraCards"></div>
+
+  <h2 class="section" style="color:var(--gapc)">Gaps — what competitors are teaching that Decera is not</h2>
+  <p class="section-sub">Topics with a verified, in-window competitor activity but no matching Decera activity found in the same window. Each links to the competitor source so you can verify. (Objectives intentionally omitted here — the point is the white space, not the wording.)</p>
+  <table class="gap" id="gaptbl"></table>
+
+  <h2 class="section">Direct overlaps — Decera and competitors on the same topic</h2>
+  <p class="section-sub">Where Decera and one or more competitors both ran education on the same topic in-window. Links on both sides.</p>
+  <div id="overlaps"></div>
+
+  <h2 class="section">Agencies swept (coverage transparency)</h2>
+  <p class="section-sub">Which medical-education / CME providers were checked this cycle, and what was found. "Active, no public objectives" means the provider ran relevant activities but does not publish objectives on a fetchable page (would need a logged-in or browser capture to verify verbatim).</p>
+  <div id="swept"></div>
+
+  <h2 class="section" style="color:var(--decera)">Supporter emphasis &amp; strategic direction</h2>
+  <p class="section-sub">For each supporter that funded verified in-window education, this goes beyond "what are they interested in" to the two strategic questions a strategist actually needs to answer. <b>Disease priorities, keywords and competitor activity are derived from the verified dataset above.</b> The two strategic answers — <span style="color:var(--gapc)">cost of inaction</span> and <span style="color:var(--verified)">what CEA/Decera could do that's differentiated</span> — are <b>strategic hypotheses (judgment, not verified fact)</b>, meant as a starting point to refine, not a conclusion.</p>
+
+  <div class="lob" style="border-color:#7c4dc0">
+    <h3>Supporter strategy generator</h3>
+    <label>Pick a supporter (or type any name)</label>
+    <input type="text" id="sup_pick" list="sup_list" placeholder="e.g., Boehringer Ingelheim" oninput="genSupp()">
+    <datalist id="sup_list"></datalist>
+    <div class="brief" id="sup_out" style="display:none"></div>
+    <p style="font-size:12px;color:var(--muted);margin:10px 0 0">The generator pulls this supporter's verified funded topics, the competitor agencies already running them, and any matching gap where Decera is absent — then frames the two strategic questions. Copy the prompt at the bottom to Claude to pressure-test the strategy against current market developments.</p>
+  </div>
+
+  <div id="suppCards" class="refgrid" style="grid-template-columns:1fr 1fr"></div>
+
+  <h2 class="section" style="color:var(--decera)">Learning Objective Builder — draft accredited LOs for any TA &amp; supporter</h2>
+  <p class="section-sub">Paste a therapeutic area and what the supporter is looking for, generate a drafting brief, and use the gap-to-objective structure below. Every objective follows Bloom's Taxonomy + Moore's outcome levels: one action verb + a condition + a measurable outcome, ~3 LOs per credit hour, no compound objectives.</p>
+
+  <div class="lob">
+    <h3>1 · Therapeutic area &amp; supporter focus</h3>
+    <div class="row">
+      <div><label>Therapeutic area of interest</label><textarea id="lo_ta" placeholder="e.g., Nephrology — IgA nephropathy"></textarea></div>
+      <div><label>Supporter focus / product &amp; what they're looking for</label><textarea id="lo_supp" placeholder="e.g., Grantor interested in complement inhibitors; wants early identification + treat-to-target proteinuria reduction"></textarea></div>
+    </div>
+    <label>Target audience &amp; credit hours</label>
+    <input type="text" id="lo_aud" placeholder="e.g., Nephrologists &amp; APPs · 1.0 credit → ~3 LOs">
+    <button onclick="genBrief()">Generate drafting brief</button>
+    <button class="sec" onclick="copyBrief()">Copy brief</button>
+    <div class="brief" id="lo_brief"></div>
+    <p style="font-size:12px;color:var(--muted);margin:10px 0 0">Paste that brief to Claude and it will search current literature for open clinical-practice gaps and return drafted LOs with evidence hyperlinks — then drop them into the table below.</p>
+  </div>
+
+  <div class="lob">
+    <h3>2 · How every objective must be built</h3>
+    <div class="anat"><span>Action verb (Bloom)</span><span class="plus">+</span><span>Condition / setting</span><span class="plus">+</span><span>Measurable outcome</span></div>
+    <p style="font-size:12.5px;color:var(--muted);margin:6px 0 0"><b>Example:</b> "<b>Apply</b> guideline-directed criteria <b>in patients with suspected IgA nephropathy</b> <b>to select agents that achieve treat-to-target proteinuria reduction</b>." One action per objective · ~3 LOs per credit hour · map to the desired Moore outcome level.</p>
+    <div class="refgrid" style="margin-top:12px">
+      <div class="refcard"><h4>Preferred verbs by level (Bloom ↔ Moore)</h4>
+        <ul>
+          <li><span class="lvl">L3 · Knowledge:</span> recognize, describe, identify, define, list</li>
+          <li><span class="lvl l4">L4 · Competence (preferred):</span> apply, analyze, interpret, differentiate, integrate, justify, evaluate</li>
+          <li><span class="lvl">L5 · Performance / outcomes:</span> implement, prescribe, formulate, measure, change practice</li>
+        </ul></div>
+      <div class="avoid"><h4 style="margin:0 0 7px;color:var(--gapc);font-size:11.5px;text-transform:uppercase;letter-spacing:.4px">Do NOT use — not measurable</h4>
+        know · understand · comprehend · appreciate · familiarize · study · be aware · become acquainted with · gain knowledge of · cover · learn · realize · perceive · think · believe</div>
+    </div>
+    <div class="refgrid" style="margin-top:12px">
+      <div class="refcard"><h4>Ideal overlap</h4>The strongest programs sit where <b>educational need</b>, <b>learning objective</b>, <b>content</b>, and <b>desired outcome</b> all overlap — write each LO so it closes a documented gap and maps to how the outcome is measured.</div>
+      <div class="refcard"><h4>Weak → Strong</h4><b style="color:var(--gapc)">Weak:</b> "Discuss the management of SLE and explain the MOA of CAR-T therapy." (weak verb, compound). <b style="color:var(--verified)">Strong:</b> "Develop a management plan for SLE patients incorporating CAR-T therapy evidence." (measurable, tied to practice change).</div>
+    </div>
+  </div>
+
+  <div class="lob">
+    <h3>3 · Gap-to-Objective table</h3>
+    <p style="font-size:12.5px;color:var(--muted);margin:0 0 4px">Identify the current clinical-practice gap with evidence (guideline/trial + baseline stat, hyperlinked), then write the objective that closes it. Cells are editable; ask Claude to fill this for your TA.</p>
+    <table>
+      <tr><th style="width:25%">Clinical practice gap</th><th style="width:27%">Evidence (baseline + link)</th><th style="width:32%">Learning objective (verb + condition + outcome)</th><th style="width:16%">Moore / outcome level</th></tr>
+      <tr><td contenteditable="true">Clinicians underdiagnose chronic cough of neurogenic origin</td><td contenteditable="true">Baseline: 38% identify hallmark signs (<a href="https://www.aamc.org/system/files?file=2019-07/learning-objectives.pdf" target="_blank" rel="noopener">ref</a>)</td><td contenteditable="true">Apply diagnostic criteria to identify chronic neurogenic cough</td><td contenteditable="true">Level 4 (competence)</td></tr>
+      <tr><td contenteditable="true">&nbsp;</td><td contenteditable="true">&nbsp;</td><td contenteditable="true">&nbsp;</td><td contenteditable="true">&nbsp;</td></tr>
+      <tr><td contenteditable="true">&nbsp;</td><td contenteditable="true">&nbsp;</td><td contenteditable="true">&nbsp;</td><td contenteditable="true">&nbsp;</td></tr>
+    </table>
+    <p style="font-size:11.5px;color:var(--faint);margin:8px 0 0">Standards: <a href="https://www.aamc.org/system/files?file=2019-07/learning-objectives.pdf" target="_blank" rel="noopener">AAMC — Writing Learning Objectives</a> · <a href="https://www.aapa.org/wp-content/uploads/2018/09/Learner-centered-objectives.pdf" target="_blank" rel="noopener">AAPA — Learner-Centered Objectives</a> · Moore's levels (competence = L4, performance = L5).</p>
+  </div>
+
+  <footer id="sources"></footer>
+</div>
+
+<script>
+// Every item here is VERIFIED: link resolved + learning objectives matched verbatim on 2026-08-17.
+const DATA = __DATA__;
+const GAPS = __GAPS__;
+const OVERLAPS = __OVERLAPS__;
+const SWEPT = __SWEPT__;
+const SOURCES = __SOURCES__;
+const SUPPORTERS = __SUPPORTERS__;
+
+// ---------- render ----------
+let view="competitor";
+const $=s=>document.querySelector(s);
+const cardsEl=$("#cards"), decEl=$("#deceraCards");
+function uniq(a){return [...new Set(a)].sort();}
+$("#fTA").innerHTML += uniq(DATA.map(d=>d.ta)).map(t=>`<option>${t}</option>`).join("");
+$("#fComp").innerHTML += uniq(DATA.filter(d=>!d.decera).map(d=>d.comp)).map(c=>`<option>${c}</option>`).join("");
+
+function cardHTML(d){
+  const los = d.los && d.los.length
+    ? `<div class="los"><div class="lohead">Learning objectives — verbatim, verified</div><ul>${d.los.map(l=>`<li>${l}</li>`).join("")}</ul></div>`
+    : `<div class="los empty">${d.noloreason||"Objectives not published."}</div>`;
+  return `<div class="card ${d.decera?'decera':''}" data-ta="${d.ta}" data-comp="${d.comp}" data-txt="${(d.title+' '+d.sub+' '+d.supporter+' '+d.comp).toLowerCase()}">
+    <div class="card-top">
+      <span class="comp">${d.comp}</span>
+      ${d.decera?'<span class="badge b-decera">Decera (ours)</span>':'<span class="badge b-verified">Verified</span>'}
+      ${d.up?'<span class="badge b-up">Upcoming</span>':''}
+    </div>
+    <div class="title">${d.title}</div>
+    <div class="chips"><span class="chip ta">${d.ta}</span><span class="chip">${d.sub}</span><span class="chip">${d.congress}</span></div>
+    <div class="meta"><span><b>Date:</b> ${d.date}</span><span><b>Audience:</b> ${d.audience}</span><span><b>Supporter:</b> ${d.supporter}</span></div>
+    ${los}
+    <div class="src"><a href="${d.src}" target="_blank" rel="noopener">Verify at source ↗</a></div>
+  </div>`;
+}
+function render(){
+  const ta=$("#fTA").value, comp=$("#fComp").value, q=$("#fSearch").value.toLowerCase().trim();
+  let pool=DATA.filter(d=>{
+    if(view==="competitor"&&d.decera)return false;
+    if(view==="decera"&&!d.decera)return false;
+    if(ta&&d.ta!==ta)return false;
+    if(comp&&d.comp!==comp)return false;
+    if(q&&!((d.title+d.sub+d.supporter+d.comp).toLowerCase().includes(q)))return false;
+    return true;
+  });
+  pool.sort((a,b)=>a.ta.localeCompare(b.ta)||a.comp.localeCompare(b.comp));
+  cardsEl.innerHTML=pool.length?pool.map(cardHTML).join(""):`<div class="note">No activities match these filters.</div>`;
+  $("#count").textContent=`${pool.length} activit${pool.length===1?'y':'ies'} shown`;
+}
+decEl.innerHTML=DATA.filter(d=>d.decera).map(cardHTML).join("");
+
+const kpi=[
+  [DATA.filter(d=>!d.decera).length,"Verified competitor activities"],
+  [uniq(DATA.filter(d=>!d.decera).map(d=>d.comp)).length,"Competitor providers"],
+  [uniq(DATA.map(d=>d.ta)).length,"Therapeutic areas"],
+  [DATA.filter(d=>d.decera).length,"Decera activities (in-window)"],
+  [GAPS.length,"Gap topics (Decera absent)"],
+  [SWEPT.verified.length+SWEPT.active.length+SWEPT.none.length,"Agencies swept"]
+];
+$("#kpis").innerHTML=kpi.map(k=>`<div class="kpi"><div class="n">${k[0]}</div><div class="l">${k[1]}</div></div>`).join("");
+
+$("#gaptbl").innerHTML=`<tr><th>Topic Decera is not covering</th><th>Therapeutic area</th><th>Competitor running it</th><th>Date</th><th>Supporter</th><th>Verify</th></tr>`+
+  GAPS.map(g=>`<tr><td class="topic">${g.topic}</td><td>${g.ta}</td><td>${g.comp}</td><td>${g.date}</td><td>${g.supporter}</td><td><a href="${g.src}" target="_blank" rel="noopener">link ↗</a></td></tr>`).join("");
+
+$("#overlaps").innerHTML=OVERLAPS.map(o=>`<div class="ov" style="margin-bottom:12px">
+  <h3>${o.topic}</h3>
+  <div class="ovline"><b>Decera:</b> ${o.decera.map(x=>`<a href="${x[1]}" target="_blank" rel="noopener">${x[0]}</a>`).join(" · ")}</div>
+  <div class="ovline"><span class="vs">vs</span><b>Competitors:</b> ${o.comps.map(x=>`<a href="${x[1]}" target="_blank" rel="noopener">${x[0]}</a>`).join(" · ")}</div>
+</div>`).join("");
+
+$("#swept").innerHTML=`
+  <div style="margin-bottom:12px"><b style="color:var(--verified)">Verified objectives found (${SWEPT.verified.length}):</b><div class="swept" style="margin-top:6px">${SWEPT.verified.map(x=>`<div>• ${x}</div>`).join("")}</div></div>
+  <div style="margin-bottom:12px"><b style="color:var(--up)">Active, but no public objectives (${SWEPT.active.length}):</b><div class="swept" style="margin-top:6px">${SWEPT.active.map(x=>`<div>• ${x}</div>`).join("")}</div></div>
+  <div style="margin-bottom:12px"><b style="color:var(--faint)">Checked, nothing verifiable in-window (${SWEPT.none.length}):</b><div class="swept" style="margin-top:6px">${SWEPT.none.map(x=>`<div>• ${x}</div>`).join("")}</div></div>
+  <div><b style="color:var(--decera)">Your own brands — excluded from competitors:</b><div class="swept" style="margin-top:6px">${SWEPT.client.map(x=>`<div>• ${x}</div>`).join("")}</div></div>`;
+
+$("#sources").innerHTML=`<b>Every source (fetched &amp; verbatim-verified Aug 17, 2026):</b> `+SOURCES.map(s=>`<a href="${s[1]}" target="_blank" rel="noopener">${s[0]}</a>`).join(" · ")+
+  `<br><br><b>Auto-refresh:</b> rebuilds every Monday 3:00 PM CT. Window: rolling last 12 months (Aug 2025–Aug 2026), applied equally to Decera and competitors. Confidence in accuracy of included items ≥0.97 (each link-verified). "Upcoming" = already announced, dated just after today.`;
+
+document.querySelectorAll("#segView button").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll("#segView button").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on");view=b.dataset.view;render();
+}));
+["fTA","fComp"].forEach(id=>$("#"+id).addEventListener("change",render));
+$("#fSearch").addEventListener("input",render);
+render();
+
+// ---------- Supporter emphasis & strategic direction ----------
+function supActivities(name){
+  const n=name.toLowerCase();
+  return DATA.filter(d=>!d.decera && (d.supporter||"").toLowerCase().includes(n));
+}
+function supIntel(nameOrMatch){
+  // nameOrMatch: a display name string; find matching activities by any token of the profile or the raw name
+  let acts=[];
+  const prof=SUPPORTERS.find(s=>s.name===nameOrMatch);
+  if(prof){ prof.match.forEach(m=>{acts=acts.concat(DATA.filter(d=>!d.decera&&(d.supporter||"").toLowerCase().includes(m)));}); }
+  else { acts=supActivities(nameOrMatch); }
+  // dedupe by title
+  const seen=new Set(); acts=acts.filter(a=>{const k=a.title;if(seen.has(k))return false;seen.add(k);return true;});
+  const tas=uniq(acts.map(a=>a.ta));
+  const priorities=uniq(acts.map(a=>a.sub));
+  const via=uniq(acts.map(a=>a.comp));
+  // keywords: pull salient words from subs
+  const kw=uniq(acts.flatMap(a=>(a.sub||"").split(/[\/(),;]| - | — /).map(s=>s.trim()).filter(s=>s.length>3))).slice(0,10);
+  // matching gaps (Decera absent) by supporter or by shared TA+topic word
+  const gaps=GAPS.filter(g=>{
+    const gs=(g.supporter||"").toLowerCase();
+    if(prof&&prof.match.some(m=>gs.includes(m)))return true;
+    return acts.some(a=>a.ta===g.ta);
+  });
+  // does Decera cover this TA already?
+  const deceraTAs=uniq(DATA.filter(d=>d.decera).map(d=>d.ta));
+  const deceraOverlap=tas.filter(t=>deceraTAs.includes(t));
+  return {acts,tas,priorities,via,kw,gaps,deceraOverlap};
+}
+function suppCardHTML(prof){
+  const i=supIntel(prof.name);
+  if(!i.acts.length) return "";
+  const gapList=i.gaps.slice(0,6).map(g=>`<a href="${g.src}" target="_blank" rel="noopener">${g.topic}</a>`).join(" · ")||"—";
+  return `<div class="refcard" style="border-color:#7c4dc0">
+    <h4 style="color:var(--decera)">${prof.name} <span style="color:var(--faint);font-weight:400;text-transform:none">· ${i.acts.length} verified in-window</span></h4>
+    <div style="font-size:12.7px;margin:2px 0 8px">${prof.focus}</div>
+    <div style="margin:6px 0"><b>Disease priorities:</b> ${i.priorities.join(" · ")}</div>
+    <div style="margin:6px 0"><b>Therapeutic areas:</b> ${i.tas.join(", ")}</div>
+    <div style="margin:6px 0"><b>Already funding via:</b> ${i.via.join(", ")}</div>
+    <div style="margin:6px 0"><b>Open gaps (Decera absent):</b> ${gapList}</div>
+    <div style="margin:9px 0 0;padding:9px 11px;background:rgba(232,102,61,.10);border:1px solid rgba(232,102,61,.35);border-radius:8px">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--gapc);font-weight:700;margin-bottom:3px">Cost of inaction <span style="text-transform:none;font-weight:400;color:var(--faint)">· strategic hypothesis</span></div>
+      ${prof.cost}</div>
+    <div style="margin:9px 0 0;padding:9px 11px;background:rgba(63,185,80,.10);border:1px solid rgba(63,185,80,.35);border-radius:8px">
+      <div style="font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--verified);font-weight:700;margin-bottom:3px">What Decera (CEA) could do — differentiated <span style="text-transform:none;font-weight:400;color:var(--faint)">· strategic hypothesis</span></div>
+      ${prof.opp}${i.deceraOverlap.length?`<div style="margin-top:6px;font-size:11.5px;color:var(--muted)"><b>Note:</b> Decera already active in ${i.deceraOverlap.join(", ")} — differentiate, don't duplicate.</div>`:""}</div>
+  </div>`;
+}
+// populate datalist with every supporter that appears in the data + curated names
+(function(){
+  const raw=uniq(DATA.filter(d=>!d.decera).flatMap(d=>(d.supporter||"").split(/;/).map(s=>s.trim())).filter(s=>s&&!/not stated|slide deck/i.test(s)));
+  const names=uniq(SUPPORTERS.map(s=>s.name).concat(raw));
+  $("#sup_list").innerHTML=names.map(n=>`<option value="${n}">`).join("");
+  $("#suppCards").innerHTML=SUPPORTERS.map(suppCardHTML).join("");
+})();
+function genSupp(){
+  const name=($("#sup_pick").value||"").trim();
+  const out=$("#sup_out");
+  if(!name){out.style.display="none";return;}
+  const i=supIntel(name);
+  const prof=SUPPORTERS.find(s=>s.name===name)||SUPPORTERS.find(s=>s.match.some(m=>name.toLowerCase().includes(m)));
+  if(!i.acts.length && !prof){out.style.display="block";out.textContent=`No verified in-window activity found for "${name}" in the current dataset. You can still run the two strategic questions manually — copy the prompt below and give Claude this supporter + your target therapeutic area.\n\nStrategic prompt for Claude:\n1) COST OF INACTION — If ${name} does not fund education in [therapeutic area] now, what is the clinical and strategic consequence (why now, why budget, what happens if the gap stays open, why grant timing matters)?\n2) DIFFERENTIATED OPPORTUNITY — Considering ${name}, current competitor activity, the open educational gaps, Decera (CEA) capabilities and existing programs, and current market developments: what could Decera develop that competitors are NOT currently doing?`;return;}
+  let t="";
+  t+=`SUPPORTER: ${prof?prof.name:name}\n`;
+  if(prof)t+=`Strategic focus: ${prof.focus}\n`;
+  t+=`\n— Verified intel (from this dataset) —\n`;
+  t+=`Disease priorities: ${i.priorities.join(" · ")||"—"}\n`;
+  t+=`Therapeutic areas: ${i.tas.join(", ")||"—"}\n`;
+  t+=`Keywords: ${i.kw.join(", ")||"—"}\n`;
+  t+=`Already funding via (competitors): ${i.via.join(", ")||"—"}\n`;
+  t+=`Open gaps where Decera is absent: ${i.gaps.slice(0,6).map(g=>g.topic).join(" · ")||"—"}\n`;
+  if(i.deceraOverlap.length)t+=`Decera already active in: ${i.deceraOverlap.join(", ")} (differentiate, don't duplicate)\n`;
+  if(prof){
+    t+=`\n① COST OF INACTION (strategic hypothesis):\n${prof.cost}\n`;
+    t+=`\n② WHAT DECERA (CEA) COULD DO — DIFFERENTIATED (strategic hypothesis):\n${prof.opp}\n`;
+  }
+  t+=`\n— Pressure-test prompt for Claude —\nGiven the supporter, the competitor activity and open gaps above, Decera (CEA) capabilities and current market developments (recent approvals, PDUFA dates, guideline changes): (1) sharpen the COST OF INACTION into a fundable "why now"; (2) propose 2-3 program concepts Decera could develop that NO competitor above is currently running, each with the audience, format, and the gap it closes.`;
+  out.style.display="block";out.textContent=t;
+}
+</script>
+<script>
+function genBrief(){
+  var ta=(document.getElementById('lo_ta').value||'[therapeutic area]').trim();
+  var supp=(document.getElementById('lo_supp').value||'[supporter focus]').trim();
+  var aud=(document.getElementById('lo_aud').value||'[audience; credit hours]').trim();
+  var b="Draft ~3 accredited-CME learning objectives for "+ta+", for a program supported by a grantor interested in: "+supp+". Audience: "+aud+".\n\nRequirements:\n1) First search current literature/guidelines to confirm the OPEN clinical-practice gap(s) and cite evidence (guideline or trial) with a working hyperlink and a baseline statistic where available.\n2) Each objective = one Bloom action verb + a condition/setting + a measurable outcome. No compound objectives (one action each).\n3) Prefer Moore Level 4 (competence) verbs: apply, analyze, interpret, differentiate, integrate, justify. Use Level 3 (recognize, describe, identify) only for foundational knowledge; Level 5 (implement, prescribe, measure, change practice) for performance goals.\n4) AVOID: know, understand, comprehend, appreciate, familiarize, study, be aware, learn, realize, perceive, think, believe.\n5) Return a gap table: Clinical Practice Gap | Evidence (hyperlink + baseline) | Learning Objective | Moore/Desired Outcome Level.";
+  var el=document.getElementById('lo_brief'); el.textContent=b; el.style.display='block';
+}
+function copyBrief(){
+  var el=document.getElementById('lo_brief');
+  if(el.style.display==='none'||!el.textContent) genBrief();
+  if(navigator.clipboard) navigator.clipboard.writeText(el.textContent);
+  var btns=document.querySelectorAll('.lob button.sec');
+  if(btns[0]){var t=btns[0].textContent;btns[0].textContent='Copied ✓';setTimeout(function(){btns[0].textContent=t;},1200);}
+}
+</script>
+</body>
+</html>

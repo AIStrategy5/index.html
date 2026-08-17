@@ -1,0 +1,1566 @@
+{
+ "DATA": [
+  {
+   "comp": "PeerView",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "ATTR cardiac amyloidosis",
+   "title": "Implementing Targeted Therapies in Transthyretin Cardiac Amyloidosis: From Diagnosis to Stabilization",
+   "congress": "Satellite — presented with HFSA (Sept 2025)",
+   "date": "Sep 2025",
+   "audience": "Cardiologists",
+   "supporter": "Not stated on source (slide deck)",
+   "los": [
+    "Raise your index of suspicion for the signs and symptoms of ATTR-CA in different populations",
+    "Equip you with strategies for prompt diagnosis and treatment of ATTR-CA",
+    "Provide guidance on individualizing treatment regimens for ATTR-CA incorporating the most recent evidence"
+   ],
+   "src": "https://c.peerview.com/live/programs/150210840-1/downloads/PVI_slides_25ATTR-CA.pdf"
+  },
+  {
+   "comp": "PeerView",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Obstructive HCM / cardiac myosin inhibitors",
+   "title": "Hypertrophic Cardiomyopathy: Care in the CMI Era — Elevating Outcomes With Cardiac Myosin Inhibitors",
+   "congress": "Independent satellite around AHA 2025 (not part of official AHA Scientific Sessions)",
+   "date": "Nov 7–10, 2025",
+   "audience": "Cardiologists",
+   "supporter": "Not stated on source (slide deck)",
+   "los": [
+    "Early recognition and differentiation of oHCM from other causes of LVH are essential for optimal outcomes",
+    "Guideline-based management of oHCM now includes cardiac myosin inhibitors (CMIs) as disease-modifying therapy",
+    "CMIs can improve symptoms and reduce LVOT gradients in patients with oHCM",
+    "Ongoing oHCM management requires shared decision-making, individualized treatment, and regular monitoring"
+   ],
+   "src": "https://c.peerview.com/live/programs/150211230-1/downloads/PVI_slides_25-HCM.pdf"
+  },
+  {
+   "comp": "Med Learning Group",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Cardio-renal-metabolic (CKM)",
+   "title": "Bridging the Gaps: A Multidisciplinary Approach to Cardio-Renal-Metabolic Conditions — From Early Detection to Personalized Therapeutic Strategies",
+   "congress": "Online enduring",
+   "date": "Aug 29, 2025",
+   "audience": "PCPs, cardiologists, nephrologists, endocrinologists",
+   "supporter": "Not stated on source",
+   "los": [
+    "Explain the common pathophysiological mechanisms linking CRM conditions, including the role of RAAS blockade, and the rationale for therapies with proven cardiorenal protective effects",
+    "Describe the therapeutic potential of newer and emerging treatment modalities with established cardiorenal benefits (mechanism of action, efficacy and safety data)"
+   ],
+   "src": "https://medlearninggroup.com/cme-programming/bridging-the-gaps-a-multidisciplinary-approach-to-cardio-renal-metabolic-conditions-from-early-detection-to-personalized-therapeutic-strategies/"
+  },
+  {
+   "comp": "Physicians' Education Resource (PER)",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Cardio-kidney-metabolic (SGLT2i in HF+CKD)",
+   "title": "Cases and Conversations: Uniting Heart and Kidney Care — Optimizing Outcomes in Cardio-Kidney-Metabolic Disorders",
+   "congress": "Online enduring",
+   "date": "Jun 30, 2026 (exp Jul 1, 2027)",
+   "audience": "Cardiologists, nephrologists, PCPs, NPs, PAs, nurses",
+   "supporter": "Not stated on source",
+   "los": [
+    "Explain the role of guideline-directed decision-making in selecting SGLT2 inhibitor therapy for patients with heart failure (HF) and chronic kidney disease (CKD)",
+    "Apply strategies for monitoring in patients treated with guideline-recommended agents for HF and CKD",
+    "Design approaches for optimizing multidisciplinary care models and patient counseling in the clinical context of cardio-kidney-metabolic (CKM) disorders"
+   ],
+   "src": "https://www.gotoper.com/courses/cases-and-conversations-uniting-heart-and-kidney-care-optimizing-outcomes-in-cardio-kidney-metabolic-disorders-enduring"
+  },
+  {
+   "comp": "American Academy of CME",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Heart failure / cardiorenal (aldosterone, GDMT)",
+   "title": "On the Front Lines of Heart Failure: Best Practices and Evolving Evidence in Cardiorenal Care for the Multidisciplinary Team",
+   "congress": "Online enduring",
+   "date": "Jun 1, 2026 (exp Jun 1, 2027)",
+   "audience": "Cardiology, endocrinology, FM, IM, nephrology; multidisciplinary team",
+   "supporter": "Boehringer Ingelheim",
+   "los": [
+    "Review the prevalence and clinical impact of heart failure (HF), and its connection to the cardiovascular-kidney-metabolic (CKM) disease continuum",
+    "Examine the central role of aldosterone in HF pathophysiology and progression — and why it remains a critical therapeutic target",
+    "Apply best-practice approaches for early identification and diagnosis of HF, ensuring rapid initiation of guideline-directed medical therapy (GDMT)",
+    "Integrate patient-centered, guideline-based treatment plans through effective multidisciplinary and interprofessional collaboration",
+    "Evaluate the latest evidence for existing and novel HF therapeutics that target aldosterone"
+   ],
+   "src": "https://www.freecme.com/products/on-the-front-lines-of-heart-failure-best-practices-and-evolving-evidence-in-cardiorenal-care-for-the-multidisciplinary-team"
+  },
+  {
+   "comp": "CME Outfitters",
+   "decera": false,
+   "up": true,
+   "ta": "Cardiovascular",
+   "sub": "Cardio-renal-metabolic (CKM)",
+   "title": "Improving Early Identification and Integrated Management of Cardio-Renal-Metabolic Risk in Family Medicine",
+   "congress": "Livestream symposium",
+   "date": "Oct 20, 2026 (upcoming)",
+   "audience": "Family medicine physicians, NPs, PAs",
+   "supporter": "Boehringer Ingelheim",
+   "los": [
+    "Identify the shared pathophysiologic mechanisms linking cardiovascular, kidney, and metabolic disease, including how these inform integrated cardiorenal risk management in family medicine",
+    "Assess risk for CKD and cardiovascular complications using guideline-recommended screening tools (eGFR and uACR) to inform earlier intervention and referral",
+    "Apply patient-centered, guideline-aligned management strategies supporting multidisciplinary care, shared decision-making, and longitudinal monitoring across the CKM continuum"
+   ],
+   "src": "https://www.cmeoutfitters.com/activity/livestream-improving-early-identification-and-integrated-management-of-cardio-renal-metabolic-risk-in-family-medicine/"
+  },
+  {
+   "comp": "Global Education Group + MedliveCME",
+   "decera": false,
+   "up": false,
+   "ta": "Nephrology",
+   "sub": "IgA nephropathy (KDIGO, complement)",
+   "title": "IgAN Management Today: Disease Biology and Targeted Therapy",
+   "congress": "Online enduring (on FreeCME / PlatformQ Health)",
+   "date": "Dec 11, 2025 (exp Dec 11, 2026)",
+   "audience": "Nephrologists, PCPs, renal pathologists, nephrology NPs/PAs, pharmacists",
+   "supporter": "Novartis",
+   "los": [
+    "Summarize the long-term prognosis and potential complications for patients with IgA nephropathy",
+    "Explain the rationale for sustained proteinuria reduction as a goal of IgAN management",
+    "Develop strategies to apply KDIGO's recommendations on the role of newly approved agents",
+    "Summarize the latest understanding of pathophysiologic pathways leading to IgAN, including complement activation and proteinuria regulation"
+   ],
+   "src": "https://www.freecme.com/products/igan-management-today-disease-biology-and-targeted-therapy"
+  },
+  {
+   "comp": "RMEI Medical Education",
+   "decera": false,
+   "up": false,
+   "ta": "Rare disease",
+   "sub": "Hereditary angioedema (HAE)",
+   "title": "Current & Emerging Therapies: Treating & Preventing Hereditary Angioedema Attacks in Children & Adults",
+   "congress": "Online enduring",
+   "date": "In-window (exp Oct 12, 2026)",
+   "audience": "Allergy/immunology, primary care, pediatric clinicians",
+   "supporter": "Intellia; Pharming Healthcare; Pharvaris",
+   "los": [
+    "Explain the burden of hereditary angioedema (HAE)",
+    "Incorporate objective HAE quality-of-life assessment into clinical practice",
+    "Evaluate how emerging HAE on-demand and prophylactic therapies may improve patient outcomes",
+    "Create personalized HAE treatment plans"
+   ],
+   "src": "https://www.rmei.com/ce_activity/current-emerging-therapies-treating-preventing-hereditary-angioedema-attacks-in-children-adults/"
+  },
+  {
+   "comp": "Voxmedia",
+   "decera": false,
+   "up": false,
+   "ta": "Rare disease",
+   "sub": "ATTRv amyloidosis w/ polyneuropathy",
+   "title": "Seek, Find, and Treat: Best Practices for Managing Patients With Transthyretin Amyloid Polyneuropathy (ATTR-PN)",
+   "congress": "Satellite — AANEM 2025",
+   "date": "Oct 29, 2025",
+   "audience": "Clinicians managing ATTR-PN",
+   "supporter": "AstraZeneca; Ionis Pharmaceuticals",
+   "los": [
+    "Recognize red flags for raising suspicion of ATTRv amyloidosis with polyneuropathy",
+    "Describe key considerations and recommended assessments for diagnosis",
+    "Explain clinical evidence for treatments of ATTRv with PN",
+    "Discuss best practices for mixed phenotype",
+    "Identify assessments and tools for monitoring disease progression"
+   ],
+   "src": "https://markets.financialcontent.com/woonsocketcall/article/prlog-2025-10-7-2025-cme-aanem-program-seek-find-and-treat-best-practices-for-managing-patients-with-transthyretin-amyloid-polyneuropathy-attr-pn"
+  },
+  {
+   "comp": "CME Outfitters",
+   "decera": false,
+   "up": false,
+   "ta": "Rare disease",
+   "sub": "CIDP (neuromuscular)",
+   "title": "CIDP Masterclass: Early Diagnosis, Emerging Options, Better Outcomes",
+   "congress": "On-demand",
+   "date": "Aug 7, 2026",
+   "audience": "Neurologists, neuromuscular specialists, NPs, PAs, pharmacists, nurses",
+   "supporter": "argenx",
+   "los": [
+    "Assess the clinical heterogeneity and pathophysiology of CIDP, including the significance of IgG autoantibodies",
+    "Utilize guideline-recommended diagnostic criteria to identify patients with CIDP",
+    "Evaluate current and emerging treatment options, including limitations of standard therapies and integration of novel agents",
+    "Incorporate collaborative care strategies to enhance long-term outcomes and quality of life for individuals with CIDP"
+   ],
+   "src": "https://www.cmeoutfitters.com/activity/cidp-masterclass-early-diagnosis-emerging-options-better-outcomes/"
+  },
+  {
+   "comp": "ACHL",
+   "decera": false,
+   "up": false,
+   "ta": "Dermatology",
+   "sub": "Atopic dermatitis (systemic)",
+   "title": "Establishing Multidisciplinary Clinical Pathways for Selecting and Sequencing Systemic Treatments for Moderate to Severe Atopic Dermatitis",
+   "congress": "Online enduring",
+   "date": "Sep 19, 2025",
+   "audience": "Dermatologists, allergists, immunologists, internists, pediatricians, APPs, nurses, pharmacists",
+   "supporter": "Eli Lilly; Pfizer",
+   "los": [
+    "Apply recent treatment guidelines and the latest clinical trial data for the systemic treatment of moderate-to-severe AD",
+    "Outline the mechanisms of action and latest clinical evidence for novel systemic therapies for moderate-to-severe AD",
+    "Discuss the therapeutic potential of novel therapies in addressing unmet needs in diverse patient populations",
+    "Develop current and future treatment algorithms to optimally select and sequence therapies"
+   ],
+   "src": "https://www.achlcme.org/detail/5440/establishing-multidisciplinary-clinical-pathways-for-selecting-and-sequencing-systemic-treatments-for-moderate-to-severe-atopic-dermatitis"
+  },
+  {
+   "comp": "Prova Education",
+   "decera": false,
+   "up": false,
+   "ta": "Dermatology",
+   "sub": "Plaque psoriasis (IL-23)",
+   "title": "Clear Skin, Clear Path: Transforming Psoriasis Care With Durable Biologic and Oral IL-23 Innovations",
+   "congress": "CME/CE broadcast replay",
+   "date": "Jul 20, 2026 (exp Jul 20, 2027)",
+   "audience": "Dermatologists, APPs, PAs, NPs, pharmacists",
+   "supporter": "Johnson & Johnson",
+   "los": [
+    "Identify appropriate patients who may benefit from earlier initiation of systemic therapy in their treatment course",
+    "Evaluate current evidence for durability of and dose-optimization strategies for IL-23 therapies in moderate-to-severe plaque psoriasis",
+    "Compare the efficacy, safety, and patient-preference considerations between oral IL-23 receptor antagonists and injectable biologics"
+   ],
+   "src": "https://provaeducation.com/programs/cme/clear-skin-clear-path-transforming-psoriasis-care-with-durable-biologic-and-oral-il-23-innovations/49227/"
+  },
+  {
+   "comp": "HMP Education",
+   "decera": false,
+   "up": false,
+   "ta": "Dermatology",
+   "sub": "Chronic hand eczema",
+   "title": "Optimizing Outcomes in Chronic Hand Eczema: Navigating Diagnosis, Treatment, and Long-Term Care",
+   "congress": "On-demand",
+   "date": "Jun 18, 2026",
+   "audience": "Dermatology physicians, residents/fellows, NPs, nurses, PAs",
+   "supporter": "LEO Pharma",
+   "los": [
+    "Apply evidence-based approaches to diagnose and evaluate CHE, taking into account etiologic subtypes and underlying pathogenic mechanisms",
+    "Evaluate current safety/efficacy data for newer and emerging CHE therapies to guide patient selection",
+    "Implement individualized treatment plans considering topical, phototherapy, systemic, and OTC strategies",
+    "Outline evidence-informed CHE prevention strategies using practical clinical tools"
+   ],
+   "src": "https://hmpeducation.com/node/33277"
+  },
+  {
+   "comp": "PeerView",
+   "decera": false,
+   "up": false,
+   "ta": "Rheumatology",
+   "sub": "PsA + obesity",
+   "title": "Tackling Obesity in Psoriatic Arthritis: Key to Better Outcomes and Overall Health",
+   "congress": "Live/enduring (2025 materials; no explicit activity date on deck)",
+   "date": "2025",
+   "audience": "Not stated on deck",
+   "supporter": "Not stated on source (slide deck)",
+   "los": [
+    "Augment your knowledge of the therapeutic implications of obesity and PsA",
+    "Equip you with strategies to identify candidates for weight-loss pharmacotherapy",
+    "Provide guidance to collaborate with patients and colleagues to integrate weight management"
+   ],
+   "src": "https://c.peerview.com/live/programs/150210921-1/downloads/PVI_slides_PsAObesity25.pdf"
+  },
+  {
+   "comp": "ACHL",
+   "decera": false,
+   "up": false,
+   "ta": "Gastroenterology",
+   "sub": "Inflammatory bowel disease",
+   "title": "Establishing Multidisciplinary Clinical Pathways for Proactive, Individualized Treatment of IBD",
+   "congress": "Online enduring (w/ University of Chicago)",
+   "date": "Jun 13, 2025",
+   "audience": "GI, GI-APPs, internists, pharmacists, nurses",
+   "supporter": "Janssen Biotech; Takeda",
+   "los": [
+    "Apply proactive treat-to-target strategies to facilitate management of IBD and improve patient outcomes",
+    "Use and interpret available and emerging biomarkers to facilitate precision medicine in IBD",
+    "Evaluate efficacy and safety data of available and emerging therapies with differentiated mechanisms of action for IBD"
+   ],
+   "src": "https://www.achlcme.org/detail/5343/establishing-multidisciplinary-clinical-pathways-for-proactive-individualized-treatment-of-inflammatory-bowel-disease"
+  },
+  {
+   "comp": "CME Outfitters",
+   "decera": false,
+   "up": true,
+   "ta": "Gastroenterology",
+   "sub": "IBD + obesity",
+   "title": "Beyond the Bowel: Addressing Obesity as a Modifiable Driver of IBD Outcomes",
+   "congress": "Livestream CaseWise (ACG-adjacent)",
+   "date": "Oct 12, 2026 (upcoming)",
+   "audience": "Gastroenterologists, NPs, PAs",
+   "supporter": "Eli Lilly",
+   "los": [
+    "Identify the immunometabolic mechanisms by which visceral and mesenteric adipose tissue contribute to IBD disease activity, therapeutic attenuation, and surgical risk",
+    "Apply validated methods to systematically identify and characterize adiposity in people with IBD during routine encounters",
+    "Develop an individualized treatment plan for IBD and obesity integrating weight-management strategies and safe, appropriate use of GLP-1 RAs"
+   ],
+   "src": "https://www.cmeoutfitters.com/activity/livestream-beyond-the-bowel-addressing-obesity-as-a-modifiable-driver-of-ibd-outcomes/"
+  },
+  {
+   "comp": "ACHL",
+   "decera": false,
+   "up": false,
+   "ta": "Gastroenterology",
+   "sub": "Alpha-1 antitrypsin deficiency (AATD)",
+   "title": "Are You and Your Team Ready? … Alpha-1 Antitrypsin Deficiency (AATD)-Associated Liver Disease",
+   "congress": "Train-the-Trainer enduring",
+   "date": "Oct 31, 2025",
+   "audience": "GI, hepatologists, pulmonologists, APPs",
+   "supporter": "Takeda",
+   "los": [
+    "Identify appropriate diagnostic approaches and genetic testing strategies to confirm AATD",
+    "Appraise noninvasive test results and proposed liver-stiffness thresholds for staging and monitoring fibrosis in AATD",
+    "Evaluate the mechanisms of action, efficacy, and safety of emerging therapeutic agents targeting AATD"
+   ],
+   "src": "https://www.achlcme.org/detail/5469/are-you-and-your-team-ready-evolving-opportunities-to-identify-at-risk-patients-and-change-the-trajectory-of-alpha-1-antitrypsin-deficiency-(aatd)-associated-liver-disease"
+  },
+  {
+   "comp": "ACHL",
+   "decera": false,
+   "up": false,
+   "ta": "Pulmonology",
+   "sub": "IPF & progressive pulmonary fibrosis",
+   "title": "Exploring the Therapeutic Potential of Emerging Therapies in Pulmonary Fibrosis",
+   "congress": "Game-based enduring (w/ Rush University)",
+   "date": "Apr 10, 2026",
+   "audience": "Pulmonologists, APPs",
+   "supporter": "Boehringer Ingelheim",
+   "los": [
+    "Discuss unmet needs associated with standard of care for treating pulmonary fibrosis",
+    "Evaluate current and emerging antifibrotic therapies for IPF and PPF (efficacy, adverse events, suitability)",
+    "Identify opportunities to integrate emerging pharmacologic interventions into patient-centered care plans"
+   ],
+   "src": "https://www.achlcme.org/detail/5627/exploring-the-therapeutic-potential-of-emerging-therapies-in-pulmonary-fibrosis"
+  },
+  {
+   "comp": "ACHL",
+   "decera": false,
+   "up": false,
+   "ta": "Pulmonology",
+   "sub": "Fibrosing ILD / IPF / PPF / SARD-ILD",
+   "title": "Interprofessional Strategies for Mitigating Diagnostic and Treatment Delays in Patients With Fibrosing ILDs",
+   "congress": "Interactive practice guide (w/ Rush University)",
+   "date": "Aug 15, 2025",
+   "audience": "Rheumatologists, pulmonologists, radiologists, APPs",
+   "supporter": "Boehringer Ingelheim",
+   "los": [
+    "Apply evidence-based guidelines for interpretation of PFTs and HRCT in evaluating fibrosing ILDs",
+    "Evaluate current and emerging antifibrotic therapies for IPF, PPF, and systemic autoimmune rheumatic disease-associated ILD (SARD-ILD)",
+    "Design patient-centered care plans integrating current and emerging pharmacologic interventions",
+    "Develop effective strategies for interdisciplinary collaboration among pulmonologists and rheumatologists"
+   ],
+   "src": "https://www.achlcme.org/detail/5404/interprofessional-strategies-for-mitigating-diagnostic-and-treatment-delays-in-patients-with-fibrosing-ilds"
+  },
+  {
+   "comp": "HMP Education",
+   "decera": false,
+   "up": false,
+   "ta": "Pulmonology",
+   "sub": "Acute pulmonary embolism",
+   "title": "Unpacking 2026 Pulmonary Embolism Evidence and Guidelines: What Clinicians Need to Know",
+   "congress": "On-demand",
+   "date": "Jun 29, 2026 (exp Jun 29, 2027)",
+   "audience": "Interventional radiologists/cardiologists, vascular surgeons, hematologists, pulmonologists",
+   "supporter": "Penumbra",
+   "los": [
+    "Evaluate the latest clinical evidence supporting current strategies for the diagnosis and management of pulmonary embolism (PE)",
+    "Discuss multidisciplinary approaches that optimize decision-making and improve care coordination for patients with PE",
+    "Understand the most recent clinical guidance for the treatment of acute PE",
+    "Discuss innovative technologies and interventional technique selection for PE treatment"
+   ],
+   "src": "https://hmpeducation.com/node/33060"
+  },
+  {
+   "comp": "Academic CME",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Atrial fibrillation — FXI/XIa inhibitors",
+   "title": "Beyond Factor Xa: FXI/XIa Inhibition and the Next Era of Stroke Prevention in Atrial Fibrillation",
+   "congress": "Online enduring",
+   "date": "May 7, 2026 (exp May 6, 2027)",
+   "audience": "Electrophysiologists, cardiologists, stroke neurologists, AF care teams",
+   "supporter": "Bristol Myers Squibb & Johnson & Johnson Alliance",
+   "los": [
+    "Describe the biologic and mechanistic rationale for targeting factor XI/XIa in SPAF, and contrast FXI/XIa-directed strategies with current factor Xa-based DOAC therapy",
+    "Differentiate mechanistic approaches to FXI pathway modulation — including zymogen-level inhibition with a monoclonal antibody and active-site inhibition with oral small-molecule FXIa inhibitors",
+    "Evaluate the design, populations, and key endpoints of LIBREXIA-AF and LILAC-TIMI 76 in the context of prior FXI/XIa inhibitor trials",
+    "Assess how potential efficacy and bleeding outcomes across FXI/XIa inhibitor programs could influence guideline recommendations and risk-benefit discussions"
+   ],
+   "src": "https://academiccme.com/front-matter/beyond-factor-xa-fxi-xia-inhibition-and-the-next-era-of-stroke-prevention-in-atrial-fibrillation/"
+  },
+  {
+   "comp": "Academic CME",
+   "decera": false,
+   "up": false,
+   "ta": "Rheumatology",
+   "sub": "Sjögren's disease (B-cell depleting)",
+   "title": "Novel B-Cell Depleting Targeted Therapies to Improve Outcomes in Patients With Sjögren's Disease",
+   "congress": "Online enduring",
+   "date": "May 23, 2026 (exp May 22, 2027)",
+   "audience": "Rheumatologists, APPs, HCPs managing Sjögren's disease",
+   "supporter": "Novartis",
+   "los": [
+    "Discuss the updated understanding of pathophysiology, screening, diagnosis, and therapeutic targets of Sjögren's disease",
+    "Analyze the most up to date evidence for B-cell depleting therapies, including that of a novel dual mechanism B-cell depletor and BAFF-R inhibitor, to improve the management of patients with Sjögren's disease",
+    "Review the potential role of DMT with novel B-cell depleting and dual mechanism therapies to improve patient quality of life and reduce disease burden in Sjögren's disease"
+   ],
+   "src": "https://academiccme.com/front-matter/novel-b-cell-depleting-targeted-therapies-to-improve-outcomes-in-patients-with-sjogrens-disease/"
+  },
+  {
+   "comp": "Medtelligence",
+   "decera": false,
+   "up": false,
+   "ta": "Nephrology",
+   "sub": "Hyperkalemia in CKD + heart failure",
+   "title": "Case-Based Approach: Managing Hyperkalemia in Patients With CKD and Heart Failure",
+   "congress": "Online enduring",
+   "date": "Feb 16, 2026 (exp Feb 16, 2027)",
+   "audience": "Nephrologists, cardiologists, APPs, pharmacists, nurses",
+   "supporter": "CSL Vifor",
+   "los": [
+    "Evaluate the safety and efficacy of oral potassium binders in managing hyperkalemia in patients with chronic kidney disease (CKD) and heart failure",
+    "Develop evidence-based treatment plans to manage hyperkalemia in patients with CKD and heart failure"
+   ],
+   "src": "https://medtelligence.net/programs/cme/case-based-approach-managing-hyperkalemia-in-patients-with-ckd-and-heart-failure/37617/"
+  },
+  {
+   "comp": "Medtelligence",
+   "decera": false,
+   "up": false,
+   "ta": "Nephrology",
+   "sub": "IgA nephropathy",
+   "title": "Real-World IgAN: A Case-Based Approach to Maximizing Kidney Preservation",
+   "congress": "Online enduring",
+   "date": "Oct 3, 2025 (exp Oct 3, 2026)",
+   "audience": "Nephrologists and nephrology HCPs, APPs, pharmacists",
+   "supporter": "CSL Vifor",
+   "los": [
+    "Discuss the role of sustained proteinuria reduction in preserving long-term kidney function in patients with IgA nephropathy (IgAN)",
+    "Design evidence-based treatment plans to achieve maximal proteinuria reduction in patients with IgAN"
+   ],
+   "src": "https://medtelligence.net/programs/cme/real-world-igan-a-case-based-approach-to-maximizing-kidney-preservation/26635/"
+  },
+  {
+   "comp": "Medtelligence",
+   "decera": false,
+   "up": false,
+   "ta": "Nephrology",
+   "sub": "C3 glomerulopathy (rare)",
+   "title": "Engaging Adult Patients With C3GN: Shared Decision-Making at the Crossroads of Complement-Targeted Therapy",
+   "congress": "Online enduring",
+   "date": "Jun 18, 2026 (exp Jun 18, 2027)",
+   "audience": "Nephrologists, APPs, pharmacists, HCPs managing C3G/IC-MPGN",
+   "supporter": "Apellis Pharmaceuticals",
+   "los": [
+    "Apply effective shared decision-making strategies to engage adult patients with C3GN in evaluating therapeutic options and aligning treatment plans with their values and preferences"
+   ],
+   "src": "https://medtelligence.net/programs/cme/engaging-adult-patients-with-c3gn-shared-decision-making-at-the-crossroads-of-complement-targeted-therapy/54145/"
+  },
+  {
+   "comp": "Medtelligence",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "ASCVD / lipid management",
+   "title": "ASCVD Playbook | Closing the Gaps, One Inning at a Time",
+   "congress": "Online enduring (MinuteCE)",
+   "date": "Jun 8, 2026 (exp Jun 8, 2027)",
+   "audience": "Cardiologists, family medicine, APPs, pharmacists",
+   "supporter": "Merck Sharp & Dohme",
+   "los": [
+    "Identify and stratify patients at high risk of atherosclerotic cardiovascular disease (ASCVD), including underserved and nontraditional phenotypes, using evidence-based approaches",
+    "Apply LDL-C-centered, evidence-based strategies for treatment intensification and long-term lipid management",
+    "Implement systems-based secondary prevention and shared decision-making strategies to improve outcomes and access"
+   ],
+   "src": "https://medtelligence.net/programs/cme/ascvd-playbook-closing-the-gaps-one-inning-at-a-time/54284/"
+  },
+  {
+   "comp": "ReachMD",
+   "decera": false,
+   "up": false,
+   "ta": "Endocrinology",
+   "sub": "ADH1 hypocalcemia (rare)",
+   "title": "Rewriting the Calcium Code in ADH1",
+   "congress": "Online enduring",
+   "date": "Jul 31, 2026 (exp Jul 31, 2027)",
+   "audience": "Endocrinologists, pediatricians, geneticists, APPs, pharmacists",
+   "supporter": "BridgeBio Pharma",
+   "los": [
+    "Evaluate recent practice-changing data in ADH1, including findings presented at ENDO 2026, that can be applied to clinical practice and improve patient outcomes",
+    "Apply recently presented data from ENDO 2026 into clinical practice to expand treatment options and improve outcomes for patients with ADH1"
+   ],
+   "src": "https://reachmd.com/programs/cme/rewriting-the-calcium-code-in-adh1/54833/"
+  },
+  {
+   "comp": "ReachMD",
+   "decera": false,
+   "up": false,
+   "ta": "Ophthalmology",
+   "sub": "Early/intermediate dry AMD",
+   "title": "Novel Approaches in Early and Intermediate AMD: A Mechanistic Deep Dive",
+   "congress": "Online enduring",
+   "date": "Jul 31, 2026 (exp Jul 31, 2027)",
+   "audience": "Retina specialists, ophthalmologists, APPs, pharmacists",
+   "supporter": "Alcon Vision",
+   "los": [
+    "Describe evidence-based, comprehensive management strategies for early and intermediate AMD",
+    "Explain the proposed mechanistic rationale for new and emerging treatment strategies in the context of dry AMD pathophysiology",
+    "Interpret the clinical relevance of key efficacy, safety, and durability outcomes from PBM clinical trials",
+    "Apply evidence from dry AMD guidelines and recent trials to develop individualized management plans"
+   ],
+   "src": "https://reachmd.com/programs/cme/novel-approaches-in-early-and-intermediate-amd-a-mechanistic-deep-dive/57140/"
+  },
+  {
+   "comp": "HMP Education",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Intravascular imaging (IVUS)",
+   "title": "IVUS Insights: Translating Evidence into Practice for Arterial and Venous Disease",
+   "congress": "Online enduring",
+   "date": "Mar 9, 2026 (exp Mar 9, 2027)",
+   "audience": "Interventional radiologists, interventional cardiologists, vascular surgeons",
+   "supporter": "Philips",
+   "los": [
+    "Understand the applications for intravascular imaging in both arteries and veins",
+    "Apply IVUS imaging techniques to practice",
+    "Comprehend and apply global guidelines for venous and arterial diseases"
+   ],
+   "src": "https://hmpeducation.com/node/32076"
+  },
+  {
+   "comp": "HMP Education",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Chronic limb-threatening ischemia (CLTI)",
+   "title": "Multidisciplinary Insights on CLTI: Applying New Data Below the Knee",
+   "congress": "Online enduring",
+   "date": "Mar 9, 2026 (exp Mar 9, 2027)",
+   "audience": "Interventional radiologists, interventional cardiologists, vascular surgeons",
+   "supporter": "Shockwave IVL",
+   "los": [
+    "Describe the clinical presentation, pathophysiology, and disease burden of chronic limb-threatening ischemia (CLTI)",
+    "Evaluate current evidence and emerging data on BTK and BTA interventions for CLTI",
+    "Apply case-based insights to clinical practice by reviewing real-world BTK and BTA revascularization"
+   ],
+   "src": "https://hmpeducation.com/node/32071"
+  },
+  {
+   "comp": "HMP Education",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Venous thromboembolism (VTE)",
+   "title": "VTE Foundations: Clot Morphology and the Impact on Treatment Pathways",
+   "congress": "Online enduring",
+   "date": "Aug 22, 2025 (exp Aug 22, 2026)",
+   "audience": "Interventional radiologists, vascular surgeons, cardiologists, pulmonologists, critical care",
+   "supporter": "Inari (now part of Stryker)",
+   "los": [
+    "Describe the foundational elements of clot formation",
+    "Discuss the impact of clot age on its makeup and structure",
+    "Review the impact of clot makeup on efficacy of current treatment pathways as related to patient outcomes",
+    "Discuss the role of mechanical and aspiration thrombectomy in the treatment of PE and DVT"
+   ],
+   "src": "https://hmpeducation.com/node/29115"
+  },
+  {
+   "comp": "Postgraduate Healthcare Education (Power-Pak)",
+   "decera": false,
+   "up": true,
+   "ta": "Rheumatology",
+   "sub": "SLE + lupus nephritis",
+   "title": "Expanding the Therapeutic Landscape for Systemic Lupus Erythematosus and Lupus Nephritis: Moving into an Era of Targeted Therapy and Collaborative Care",
+   "congress": "Live (repeat Aug 26)",
+   "date": "Aug 20, 2026 (upcoming)",
+   "audience": "Rheumatologists, nephrologists, nurses, NPs, PAs, pharmacists",
+   "supporter": "Genentech",
+   "los": [
+    "Discuss unmet needs in systemic lupus erythematosus (SLE) including risk stratification, management of refractory disease, and lupus nephritis (LN) prevention and treatment",
+    "Review recent evidence from clinical trials evaluating the efficacy and safety of anti-CD20 monoclonal antibodies (mAbs) and other targeted therapies in the management of SLE and LN",
+    "Develop a team-based treatment approach for patients with SLE and LN that incorporates shared decision-making and the latest evidence to optimize disease management"
+   ],
+   "src": "https://www.powerpak.com/course/preamble/209003"
+  },
+  {
+   "comp": "Postgraduate Healthcare Education (Power-Pak)",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Hyperkalemia / GDMT optimization",
+   "title": "Bridging the Gap in Hyperkalemia Care: An Interdisciplinary Panel on Treatment and GDMT Optimization",
+   "congress": "Online enduring",
+   "date": "Mar 13, 2026 (exp Mar 13, 2027)",
+   "audience": "Clinical & specialty pharmacists, nurses, NPs, PAs",
+   "supporter": "AstraZeneca",
+   "los": [
+    "Examine the fundamentals of potassium homeostasis, with a focus on hyperkalemia prevalence, clinical gravity, and independent risk factors",
+    "Evaluate the clinical trial evidentiary base and regulatory milestones for novel potassium binders, patiromer and sodium zirconium cyclosilicate",
+    "Develop collaborative hyperkalemia treatment plans using novel potassium binders to improve care, especially for patients with cardiovascular, kidney, and/or metabolic diseases"
+   ],
+   "src": "https://www.powerpak.com/course/preamble/207977"
+  },
+  {
+   "comp": "Postgraduate Healthcare Education (Power-Pak)",
+   "decera": false,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Heart failure — IV iron / iron deficiency",
+   "title": "Ironing Out the Gaps: How to Test, When to Treat, and How to Administer IV Iron in Patients with Heart Failure",
+   "congress": "Online enduring",
+   "date": "Dec 31, 2025 (exp Dec 31, 2026)",
+   "audience": "Pharmacists, health-system pharmacists",
+   "supporter": "American Regent",
+   "los": [
+    "Describe the physiological basis of iron deficiency and iron deficiency anemia as comorbid conditions in patients with heart failure (HF)",
+    "Explain the rationale for the use of IV iron therapy in patients with HF and the impact on patient-centered outcomes",
+    "Review current clinical practice statements and clinical studies guiding the selection and implementation of IV iron in patients with HF",
+    "Design individualized IV iron treatment protocols for common clinical scenarios encountered in patients with HF"
+   ],
+   "src": "https://www.powerpak.com/course/preamble/139287"
+  },
+  {
+   "comp": "Postgraduate Healthcare Education (Power-Pak)",
+   "decera": false,
+   "up": false,
+   "ta": "Pulmonology",
+   "sub": "Non-CF bronchiectasis",
+   "title": "The Evolving Management of Non-Cystic Fibrosis Bronchiectasis: Preparing for the Arrival of Novel Therapeutic Approaches",
+   "congress": "Online enduring (w/ PIM)",
+   "date": "Apr 13, 2026 (exp Apr 8, 2027)",
+   "audience": "Pulmonologists, pulmonology NPs/PAs, managed-care pharmacists",
+   "supporter": "Insmed",
+   "los": [
+    "Explain the epidemiology, clinical gravity, and 'vicious vortex' pathophysiology of non-cystic fibrosis bronchiectasis (NCFBE)",
+    "Recognize challenges in the current NCFBE standard of care, with a focus on underdiagnosis and limited treatment options",
+    "Discuss the evidence and clinical rationale for novel therapeutics in NCFBE, including agents aimed at neutrophil-driven inflammation and coverage implications"
+   ],
+   "src": "https://www.powerpak.com/course/preamble/207916"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Cardio-renal-metabolic (CKM, SGLT2i)",
+   "title": "Do It Better: Effective Strategies for Implementing Evidence-Based, Patient-Centered Care in Cardio-Renal-Metabolic Disease",
+   "congress": "Satellite — AAFP FMX 2025",
+   "date": "Oct 5, 2025",
+   "audience": "PCPs, NPs, PAs caring for CRM patients",
+   "supporter": "Boehringer Ingelheim + Eli Lilly",
+   "los": [
+    "Detail the unmet needs of patients with cardio-renal-metabolic diseases and the importance of timely recognition and intervention",
+    "Incorporate recent evidence regarding the benefits and safety considerations of early and ongoing use of SGLT2 inhibitors into treatment decisions for patients with cardio-renal-metabolic diseases",
+    "Leverage current guidelines when managing patients with cardio-renal-metabolic comorbidities, including type 2 diabetes, heart failure, and chronic kidney disease"
+   ],
+   "src": "https://deceraclinical.com/education/events/management-of-cardio-renal-metabolic-disease/management-of-cardio-renal-metabolic-disease/20675-34154"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": false,
+   "ta": "Cardiovascular",
+   "sub": "Heart failure / SGLT2 inhibitors",
+   "title": "Arm-In-Arm With Heart Failure Experts: A Master Class in Optimizing Heart Failure Treatment With SGLT2 Inhibitors",
+   "congress": "Satellite — HFSA 2025",
+   "date": "Sep 27, 2025",
+   "audience": "Cardiology physicians, NPs, PAs caring for HF",
+   "supporter": "Boehringer Ingelheim + Eli Lilly",
+   "los": [
+    "Identify key clinical gaps in heart failure management and emphasize the role of guideline-directed medical therapy in improving outcomes",
+    "Assess the efficacy, safety, and cardiovascular benefits of early and sustained SGLT2 inhibitor use in heart failure treatment",
+    "Develop and implement practical strategies to integrate SGLT2 inhibitors into personalized care plans for patients with heart failure across the spectrum of left ventricular ejection fraction"
+   ],
+   "src": "https://deceraclinical.com/education/events/heart-failure-treatment-with-sglt2-inhibitors/20774"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": false,
+   "ta": "Rheumatology",
+   "sub": "PsA + obesity",
+   "title": "Beyond the Joints: A Whole-Body Approach to Psoriatic Arthritis Care Through Integrated Obesity Management",
+   "congress": "Standalone (live + OnDemand)",
+   "date": "Released Aug 7, 2026",
+   "audience": "Rheumatologists, PCPs, endocrinologists, IM/FM",
+   "supporter": "Eli Lilly",
+   "los": [
+    "Integrate evidence on the bidirectional relationship between PsA and obesity into clinical decision-making to improve disease activity and treatment outcomes",
+    "Implement evidence-based screening and management strategies for obesity and related comorbidities to improve disease activity and treatment response in patients with PsA",
+    "Apply patient-centered communication strategies to effectively engage patients in discussions about weight and metabolic health as part of comprehensive PsA management"
+   ],
+   "src": "https://deceraclinical.com/education/activities/rheumatology/whole-body-psa-and-obesity-care/162604/info"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": false,
+   "ta": "Endocrinology",
+   "sub": "Type 2 diabetes / weekly basal insulin",
+   "title": "Enhancing T2D Management With Next-Generation Basal Insulin Therapies",
+   "congress": "Standalone OnDemand",
+   "date": "Released Aug 5, 2026",
+   "audience": "Physicians, PAs, NPs/nurses (ABIM MOC)",
+   "supporter": "Novo Nordisk",
+   "los": [
+    "Integrate emerging clinical evidence into individualized treatment plans for adults with T2D requiring basal insulin therapy"
+   ],
+   "src": "https://deceraclinical.com/education/activities/endocrinology-diabetes-metabolism/t2d-management-with-weekly-insulin/65752-162589/info"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": true,
+   "ta": "Dermatology",
+   "sub": "Hidradenitis suppurativa",
+   "title": "Turning Down the Heat in HS: Translating Emerging Mechanistic Insights and Biologic Innovation Into Meaningful Patient Outcomes",
+   "congress": "Satellite — IDS 2026",
+   "date": "Aug 21, 2026 (upcoming)",
+   "audience": "Dermatologists, NPs, PAs caring for HS patients",
+   "supporter": "Incyte",
+   "los": [
+    "Implement structured diagnostic and staging frameworks to reduce time-to-diagnosis and mitigate irreversible tissue damage in patients with HS",
+    "Individualize advanced therapeutic strategies by integrating efficacy benchmarks, safety considerations, and patient-reported outcomes into shared decision-making discussions",
+    "Operationalize comprehensive, patient-centered care models that integrate dermatology, surgery, pain management, and behavioral health to address the full burden of HS"
+   ],
+   "src": "https://deceraclinical.com/education/events/hidradenitis-suppurativa-mechanistic-insights-and-biologic-innovation/hidradenitis-suppurativa-mechanistic-insights-and-biologic-innovation/28584-51171"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": false,
+   "ta": "Gastroenterology",
+   "sub": "Hepatitis B",
+   "title": "HBV Live! A Deep Dive Into the Evolving Landscape of Hepatitis B Management",
+   "congress": "Satellite — DDW 2026",
+   "date": "May 3–4, 2026",
+   "audience": "HCPs managing HBV",
+   "supporter": "GSK",
+   "los": [],
+   "noloreason": "Objectives not yet posted publicly (our own activity — slides marked “coming soon”).",
+   "src": "https://deceraclinical.com/education/content/hbv-ibd-chicago-2026"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": false,
+   "ta": "Gastroenterology",
+   "sub": "Inflammatory bowel disease",
+   "title": "Playing the Long Game: Improving Durable Control in IBD",
+   "congress": "Satellite — DDW 2026",
+   "date": "May 3–4, 2026",
+   "audience": "HCPs managing IBD",
+   "supporter": "Eli Lilly",
+   "los": [],
+   "noloreason": "Objectives not yet posted publicly (our own activity).",
+   "src": "https://deceraclinical.com/education/content/hbv-ibd-chicago-2026"
+  },
+  {
+   "comp": "Decera Clinical Education",
+   "decera": true,
+   "up": false,
+   "ta": "Gastroenterology",
+   "sub": "Inflammatory bowel disease",
+   "title": "Survey Says: Aligning Early Advanced IBD Therapy With Patient Priorities",
+   "congress": "Satellite — DDW 2026 (w/ Smart Patients)",
+   "date": "May 3–4, 2026",
+   "audience": "HCPs managing IBD",
+   "supporter": "AbbVie",
+   "los": [],
+   "noloreason": "Objectives not yet posted publicly (our own activity).",
+   "src": "https://deceraclinical.com/education/content/hbv-ibd-chicago-2026"
+  },
+  {
+   "comp": "ReachMD",
+   "decera": false,
+   "up": true,
+   "ta": "Nephrology",
+   "sub": "IgA nephropathy (complement, endothelin, APRIL/BAFF)",
+   "title": "A New Paradigm in IgAN Management—Advancing Clinical Practice in the Era of Therapeutic Expansion",
+   "congress": "",
+   "date": "Dec 2025",
+   "audience": "Nephrology physicians, nurse practitioners, physician associates, and other healthcare professionals who care for patients with IgAN",
+   "supporter": "Novartis Pharmaceuticals Corporation; Vertex Pharmaceuticals Incorporated",
+   "los": [
+    "Differentiate the mechanistic targets of novel therapies for IgAN, including those that modulate the complement pathway, endothelin system, APRIL, and dual APRIL/BAFF signaling",
+    "Assess the most recent clinical efficacy and safety data on emerging IgAN therapies to support personalized treatment decisions",
+    "Implement patient-centered strategies incorporating novel IgAN treatments to slow disease progression and optimize long-term outcomes"
+   ],
+   "src": "https://reachmd.com/programs/cme/a-new-paradigm-in-igan-managementadvancing-clinical-practice-in-the-era-of-therapeutic-expansion/54415/"
+  },
+  {
+   "comp": "CME Outfitters",
+   "decera": false,
+   "up": true,
+   "ta": "Rare disease",
+   "sub": "Generalized myasthenia gravis (FcRn antagonists)",
+   "title": "Optimizing Dosing & Scheduling in a Partial Responder with gMG",
+   "congress": "",
+   "date": "Jan 2026",
+   "audience": "Neurologists, neuromuscular specialists, and advanced practice providers (PAs and NPs)",
+   "supporter": "Johnson & Johnson",
+   "los": [
+    "Differentiate MOAs, safety, and efficacy profiles of currently approved FcRn antagonists for the treatment of gMG",
+    "Incorporate strategies to identify patients with gMG who may be appropriate candidates for treatment with FcRn antagonists",
+    "Utilize an individualized approach to treatment planning for patients with gMG receiving FcRn antagonists based on the latest data as well as patient preferences"
+   ],
+   "src": "https://www.cmeoutfitters.com/activity/optimizing-dosing-scheduling-in-a-partial-responder/"
+  },
+  {
+   "comp": "Integrity Continuing Education",
+   "decera": false,
+   "up": true,
+   "ta": "Dermatology",
+   "sub": "Generalized pustular psoriasis (IL-36 inhibition)",
+   "title": "Treating and Preventing GPP Flare: Acute vs Chronic",
+   "congress": "",
+   "date": "Dec 2025",
+   "audience": "Dermatologists and other physicians, nurse practitioners, and physician assistants who may be involved in recognizing and managing rare dermatologic conditions such as GPP",
+   "supporter": "Boehringer Ingelheim Pharmaceuticals, Inc.",
+   "los": [
+    "Implement patient-centric strategies focused on timely diagnosis of GPP and improved patient-clinician communication about the disease and its treatment",
+    "Explain the pathogenesis of GPP and the rationale for treating it with targeted therapies that inhibit IL-36",
+    "Incorporate information about clinical trial findings for IL-36 inhibitors into selection criteria for treating and preventing GPP flare"
+   ],
+   "src": "https://www.freecme.com/products/treating-and-preventing-gpp-flare-acute-vs-chronic"
+  },
+  {
+   "comp": "Academic CME",
+   "decera": false,
+   "up": true,
+   "ta": "Nephrology",
+   "sub": "IgA nephropathy (continuity of care / adherence)",
+   "title": "From PCP to Nephrologist & Supportive Patient Education to Achieve Continuity of Care and Adherence to Optimal Treatment Strategies in IgA Nephropathy",
+   "congress": "",
+   "date": "Mar 2025",
+   "audience": "Primary care physicians, internists, family medicine physicians, allied healthcare professionals and other healthcare providers involved in the care of patients",
+   "supporter": "Travere Therapeutics",
+   "los": [
+    "Develop effective strategies for patient education and shared decision making to achieve continuity of care and adherence to optimal treatment of patients with IgAN"
+   ],
+   "src": "https://academiccme.com/front-matter/from-pcp-to-nephrologist-supportive-patient-education-to-achieve-continuity-of-care-and-adherence-to-optimal-treatment-strategies-in-iga-nephropathy/"
+  },
+  {
+   "comp": "Physicians’ Education Resource (PER)",
+   "decera": false,
+   "up": true,
+   "ta": "Nephrology",
+   "sub": "IgA nephropathy (ANNA updates)",
+   "title": "PER Postgame: Updates from ANNA in the Management of IgA Nephropathy",
+   "congress": "ANNA (American Nephrology Nurses Association)",
+   "date": "Jun 2025",
+   "audience": "Nephrology nurses; nephrologists and other HCPs involved in the management of patients with IgAN",
+   "supporter": "Travere Therapeutics, Inc.",
+   "los": [
+    "Discuss the most recent updates on the pathophysiology and pathogenesis of IgAN",
+    "Apply strategies to evaluate patients with IgAN",
+    "Analyze recent efficacy and safety trial data on new and emerging treatments for IgAN",
+    "Summarize guideline recommendations for the individualized treatment of patients with IgAN"
+   ],
+   "src": "https://www.gotoper.com/courses/per-postgame-updates-in-the-management-of-iga-nephropathy"
+  },
+  {
+   "comp": "ACHL",
+   "decera": false,
+   "up": true,
+   "ta": "Ophthalmology",
+   "sub": "Geographic atrophy (complement inhibitors)",
+   "title": "Should I Treat This Patient With Geographic Atrophy? Weighing Benefits and Burden of Treatment With Complement Inhibitors",
+   "congress": "",
+   "date": "May 2025",
+   "audience": "Eye care specialists who treat geographic atrophy (physicians, physician assistants, nurse practitioners, and nurses)",
+   "supporter": "Astellas",
+   "los": [
+    "Describe the pathophysiologic processes contributing to geographic atrophy (GA) development and progression",
+    "Outline the clinical and patient factors associated with treatment decision-making",
+    "Critically review clinical trials and discuss opportunities to apply evidence on complement inhibition for GA"
+   ],
+   "src": "https://cme.uchicago.edu/GA2025"
+  },
+  {
+   "comp": "CME Outfitters",
+   "decera": false,
+   "up": true,
+   "ta": "Gastroenterology",
+   "sub": "Eosinophilic esophagitis (EoE)",
+   "title": "Revolutionizing Care: Innovative Approaches to Eosinophilic Esophagitis Treatment and Management",
+   "congress": "",
+   "date": "Dec 2025",
+   "audience": "Gastroenterologists, allergists/immunologists, primary care providers, nurse practitioners, physician associates, nurses, and pharmacists",
+   "supporter": "Regeneron Pharmaceuticals, Inc.; Sanofi",
+   "los": [
+    "Identify how the complex, Th2-driven pathophysiology of EoE impacts diagnosis and treatment",
+    "Integrate evidence-based treatments into the care of patients with EoE based on clinical trial data",
+    "Develop long-term care plans for patients with EoE to address the chronic, progressive nature of this disease"
+   ],
+   "src": "https://www.cmeoutfitters.com/activity/revolutionizing-care-innovative-approaches-to-eosinophilic-esophagitis-treatment-and-management/"
+  }
+ ],
+ "GAPS": [
+  {
+   "topic": "Transthyretin cardiac amyloidosis (ATTR-CM)",
+   "comp": "PeerView",
+   "ta": "Cardiovascular",
+   "date": "Sep 2025",
+   "supporter": "Not stated on source",
+   "src": "https://c.peerview.com/live/programs/150210840-1/downloads/PVI_slides_25ATTR-CA.pdf"
+  },
+  {
+   "topic": "Transthyretin amyloid polyneuropathy (ATTR-PN)",
+   "comp": "Voxmedia",
+   "ta": "Rare disease",
+   "date": "Oct 29, 2025",
+   "supporter": "AstraZeneca; Ionis",
+   "src": "https://markets.financialcontent.com/woonsocketcall/article/prlog-2025-10-7-2025-cme-aanem-program-seek-find-and-treat-best-practices-for-managing-patients-with-transthyretin-amyloid-polyneuropathy-attr-pn"
+  },
+  {
+   "topic": "Hypertrophic cardiomyopathy (cardiac myosin inhibitors)",
+   "comp": "PeerView",
+   "ta": "Cardiovascular",
+   "date": "Nov 2025",
+   "supporter": "Not stated on source",
+   "src": "https://c.peerview.com/live/programs/150211230-1/downloads/PVI_slides_25-HCM.pdf"
+  },
+  {
+   "topic": "IgA nephropathy",
+   "comp": "Global Education Group + MedliveCME",
+   "ta": "Nephrology",
+   "date": "Dec 11, 2025",
+   "supporter": "Novartis",
+   "src": "https://www.freecme.com/products/igan-management-today-disease-biology-and-targeted-therapy"
+  },
+  {
+   "topic": "Atopic dermatitis (systemic / biologic)",
+   "comp": "ACHL",
+   "ta": "Dermatology",
+   "date": "Sep 19, 2025",
+   "supporter": "Eli Lilly; Pfizer",
+   "src": "https://www.achlcme.org/detail/5440/establishing-multidisciplinary-clinical-pathways-for-selecting-and-sequencing-systemic-treatments-for-moderate-to-severe-atopic-dermatitis"
+  },
+  {
+   "topic": "Plaque psoriasis (oral IL-23)",
+   "comp": "Prova Education",
+   "ta": "Dermatology",
+   "date": "Jul 20, 2026",
+   "supporter": "Johnson & Johnson",
+   "src": "https://provaeducation.com/programs/cme/clear-skin-clear-path-transforming-psoriasis-care-with-durable-biologic-and-oral-il-23-innovations/49227/"
+  },
+  {
+   "topic": "Chronic hand eczema",
+   "comp": "HMP Education",
+   "ta": "Dermatology",
+   "date": "Jun 18, 2026",
+   "supporter": "LEO Pharma",
+   "src": "https://hmpeducation.com/node/33277"
+  },
+  {
+   "topic": "CIDP (neuromuscular rare disease)",
+   "comp": "CME Outfitters",
+   "ta": "Rare disease",
+   "date": "Aug 7, 2026",
+   "supporter": "argenx",
+   "src": "https://www.cmeoutfitters.com/activity/cidp-masterclass-early-diagnosis-emerging-options-better-outcomes/"
+  },
+  {
+   "topic": "Hereditary angioedema (HAE)",
+   "comp": "RMEI Medical Education",
+   "ta": "Rare disease",
+   "date": "In-window (exp Oct 2026)",
+   "supporter": "Intellia; Pharming; Pharvaris",
+   "src": "https://www.rmei.com/ce_activity/current-emerging-therapies-treating-preventing-hereditary-angioedema-attacks-in-children-adults/"
+  },
+  {
+   "topic": "Alpha-1 antitrypsin deficiency (AATD)",
+   "comp": "ACHL",
+   "ta": "Gastroenterology / hepatology",
+   "date": "Oct 31, 2025",
+   "supporter": "Takeda",
+   "src": "https://www.achlcme.org/detail/5469/are-you-and-your-team-ready-evolving-opportunities-to-identify-at-risk-patients-and-change-the-trajectory-of-alpha-1-antitrypsin-deficiency-(aatd)-associated-liver-disease"
+  },
+  {
+   "topic": "Idiopathic / progressive pulmonary fibrosis (IPF/PPF)",
+   "comp": "ACHL",
+   "ta": "Pulmonology",
+   "date": "Apr 10, 2026",
+   "supporter": "Boehringer Ingelheim",
+   "src": "https://www.achlcme.org/detail/5627/exploring-the-therapeutic-potential-of-emerging-therapies-in-pulmonary-fibrosis"
+  },
+  {
+   "topic": "Fibrosing ILD (incl. SARD-ILD)",
+   "comp": "ACHL",
+   "ta": "Pulmonology",
+   "date": "Aug 15, 2025",
+   "supporter": "Boehringer Ingelheim",
+   "src": "https://www.achlcme.org/detail/5404/interprofessional-strategies-for-mitigating-diagnostic-and-treatment-delays-in-patients-with-fibrosing-ilds"
+  },
+  {
+   "topic": "Acute pulmonary embolism",
+   "comp": "HMP Education",
+   "ta": "Pulmonology",
+   "date": "Jun 29, 2026",
+   "supporter": "Penumbra",
+   "src": "https://hmpeducation.com/node/33060"
+  },
+  {
+   "topic": "Atrial fibrillation — stroke prevention (FXI/XIa inhibitors)",
+   "comp": "Academic CME",
+   "ta": "Cardiovascular",
+   "date": "May 7, 2026",
+   "supporter": "BMS & J&J Alliance",
+   "src": "https://academiccme.com/front-matter/beyond-factor-xa-fxi-xia-inhibition-and-the-next-era-of-stroke-prevention-in-atrial-fibrillation/"
+  },
+  {
+   "topic": "ASCVD / lipid (LDL-C) management",
+   "comp": "Medtelligence",
+   "ta": "Cardiovascular",
+   "date": "Jun 8, 2026",
+   "supporter": "Merck",
+   "src": "https://medtelligence.net/programs/cme/ascvd-playbook-closing-the-gaps-one-inning-at-a-time/54284/"
+  },
+  {
+   "topic": "Hyperkalemia (potassium binders) in CKD/HF",
+   "comp": "Medtelligence · Power-Pak",
+   "ta": "Nephrology / Cardiovascular",
+   "date": "Feb–Mar 2026",
+   "supporter": "CSL Vifor · AstraZeneca",
+   "src": "https://medtelligence.net/programs/cme/case-based-approach-managing-hyperkalemia-in-patients-with-ckd-and-heart-failure/37617/"
+  },
+  {
+   "topic": "Heart failure — IV iron / iron deficiency",
+   "comp": "Postgraduate Healthcare Education",
+   "ta": "Cardiovascular",
+   "date": "Dec 31, 2025",
+   "supporter": "American Regent",
+   "src": "https://www.powerpak.com/course/preamble/139287"
+  },
+  {
+   "topic": "Peripheral & venous vascular disease (IVUS, CLTI, VTE)",
+   "comp": "HMP Education",
+   "ta": "Cardiovascular",
+   "date": "Mar 2026",
+   "supporter": "Philips · Shockwave · Stryker",
+   "src": "https://hmpeducation.com/node/32076"
+  },
+  {
+   "topic": "IgA nephropathy",
+   "comp": "Medtelligence · Global Education Group",
+   "ta": "Nephrology",
+   "date": "Oct–Dec 2025",
+   "supporter": "CSL Vifor · Novartis",
+   "src": "https://medtelligence.net/programs/cme/real-world-igan-a-case-based-approach-to-maximizing-kidney-preservation/26635/"
+  },
+  {
+   "topic": "C3 glomerulopathy (rare kidney)",
+   "comp": "Medtelligence",
+   "ta": "Nephrology",
+   "date": "Jun 18, 2026",
+   "supporter": "Apellis",
+   "src": "https://medtelligence.net/programs/cme/engaging-adult-patients-with-c3gn-shared-decision-making-at-the-crossroads-of-complement-targeted-therapy/54145/"
+  },
+  {
+   "topic": "Sjögren's disease",
+   "comp": "Academic CME",
+   "ta": "Rheumatology",
+   "date": "May 23, 2026",
+   "supporter": "Novartis",
+   "src": "https://academiccme.com/front-matter/novel-b-cell-depleting-targeted-therapies-to-improve-outcomes-in-patients-with-sjogrens-disease/"
+  },
+  {
+   "topic": "Systemic lupus erythematosus / lupus nephritis",
+   "comp": "Postgraduate Healthcare Education",
+   "ta": "Rheumatology / Nephrology",
+   "date": "Aug 20, 2026",
+   "supporter": "Genentech",
+   "src": "https://www.powerpak.com/course/preamble/209003"
+  },
+  {
+   "topic": "ADH1 hypocalcemia / hypoparathyroidism",
+   "comp": "ReachMD",
+   "ta": "Endocrinology / rare",
+   "date": "Jul 31, 2026",
+   "supporter": "BridgeBio",
+   "src": "https://reachmd.com/programs/cme/rewriting-the-calcium-code-in-adh1/54833/"
+  },
+  {
+   "topic": "Retinal disease — early/intermediate dry AMD",
+   "comp": "ReachMD",
+   "ta": "Ophthalmology",
+   "date": "Jul 31, 2026",
+   "supporter": "Alcon",
+   "src": "https://reachmd.com/programs/cme/novel-approaches-in-early-and-intermediate-amd-a-mechanistic-deep-dive/57140/"
+  },
+  {
+   "topic": "Non-CF bronchiectasis",
+   "comp": "Postgraduate Healthcare Education",
+   "ta": "Pulmonology",
+   "date": "Apr 13, 2026",
+   "supporter": "Insmed",
+   "src": "https://www.powerpak.com/course/preamble/207916"
+  },
+  {
+   "topic": "Pulmonary arterial hypertension (PAH)",
+   "comp": "ACHL (active; LOs gated)",
+   "ta": "Pulmonology",
+   "date": "Dec 19, 2025",
+   "supporter": "Not stated on source",
+   "src": "https://www.achlcme.org/pulmonology"
+  },
+  {
+   "topic": "Generalized myasthenia gravis (FcRn antagonists)",
+   "comp": "CME Outfitters",
+   "ta": "Rare disease",
+   "date": "Jan 2026",
+   "supporter": "Johnson & Johnson",
+   "src": "https://www.cmeoutfitters.com/activity/optimizing-dosing-scheduling-in-a-partial-responder/"
+  },
+  {
+   "topic": "Generalized pustular psoriasis (IL-36)",
+   "comp": "Integrity Continuing Education",
+   "ta": "Dermatology",
+   "date": "Dec 2025",
+   "supporter": "Boehringer Ingelheim",
+   "src": "https://www.freecme.com/products/treating-and-preventing-gpp-flare-acute-vs-chronic"
+  },
+  {
+   "topic": "Geographic atrophy (dry AMD, complement inhibitors)",
+   "comp": "ACHL",
+   "ta": "Ophthalmology",
+   "date": "May 2025",
+   "supporter": "Astellas",
+   "src": "https://cme.uchicago.edu/GA2025"
+  },
+  {
+   "topic": "Eosinophilic esophagitis (EoE)",
+   "comp": "CME Outfitters",
+   "ta": "Gastroenterology",
+   "date": "Dec 2025",
+   "supporter": "Regeneron; Sanofi",
+   "src": "https://www.cmeoutfitters.com/activity/revolutionizing-care-innovative-approaches-to-eosinophilic-esophagitis-treatment-and-management/"
+  }
+ ],
+ "OVERLAPS": [
+  {
+   "topic": "Cardio-renal-metabolic / heart failure (SGLT2, cardiorenal)",
+   "decera": [
+    [
+     "Do It Better: CRM Disease (FMX 2025)",
+     "https://deceraclinical.com/education/events/management-of-cardio-renal-metabolic-disease/management-of-cardio-renal-metabolic-disease/20675-34154"
+    ],
+    [
+     "Arm-In-Arm: HF + SGLT2 (HFSA 2025)",
+     "https://deceraclinical.com/education/events/heart-failure-treatment-with-sglt2-inhibitors/20774"
+    ]
+   ],
+   "comps": [
+    [
+     "Med Learning Group — CKM",
+     "https://medlearninggroup.com/cme-programming/bridging-the-gaps-a-multidisciplinary-approach-to-cardio-renal-metabolic-conditions-from-early-detection-to-personalized-therapeutic-strategies/"
+    ],
+    [
+     "PER — Cardio-Kidney-Metabolic",
+     "https://www.gotoper.com/courses/cases-and-conversations-uniting-heart-and-kidney-care-optimizing-outcomes-in-cardio-kidney-metabolic-disorders-enduring"
+    ],
+    [
+     "American Academy of CME — HF/cardiorenal",
+     "https://www.freecme.com/products/on-the-front-lines-of-heart-failure-best-practices-and-evolving-evidence-in-cardiorenal-care-for-the-multidisciplinary-team"
+    ],
+    [
+     "CME Outfitters — CKM (upcoming)",
+     "https://www.cmeoutfitters.com/activity/livestream-improving-early-identification-and-integrated-management-of-cardio-renal-metabolic-risk-in-family-medicine/"
+    ]
+   ]
+  },
+  {
+   "topic": "Inflammatory bowel disease (IBD)",
+   "decera": [
+    [
+     "Playing the Long Game: Durable Control in IBD (DDW 2026)",
+     "https://deceraclinical.com/education/content/hbv-ibd-chicago-2026"
+    ],
+    [
+     "Survey Says: Early Advanced IBD Therapy (DDW 2026)",
+     "https://deceraclinical.com/education/content/hbv-ibd-chicago-2026"
+    ]
+   ],
+   "comps": [
+    [
+     "ACHL — IBD clinical pathways",
+     "https://www.achlcme.org/detail/5343/establishing-multidisciplinary-clinical-pathways-for-proactive-individualized-treatment-of-inflammatory-bowel-disease"
+    ],
+    [
+     "CME Outfitters — IBD + obesity (upcoming)",
+     "https://www.cmeoutfitters.com/activity/livestream-beyond-the-bowel-addressing-obesity-as-a-modifiable-driver-of-ibd-outcomes/"
+    ]
+   ]
+  },
+  {
+   "topic": "Psoriatic arthritis + obesity (near-identical concept)",
+   "decera": [
+    [
+     "Beyond the Joints: Whole-Body PsA + Obesity",
+     "https://deceraclinical.com/education/activities/rheumatology/whole-body-psa-and-obesity-care/162604/info"
+    ]
+   ],
+   "comps": [
+    [
+     "PeerView — Tackling Obesity in PsA",
+     "https://c.peerview.com/live/programs/150210921-1/downloads/PVI_slides_PsAObesity25.pdf"
+    ]
+   ]
+  }
+ ],
+ "SWEPT": {
+  "verified": [
+   "PeerView",
+   "Med Learning Group",
+   "ACHL (Academy for Continued Healthcare Learning)",
+   "CME Outfitters",
+   "Prova Education",
+   "HMP Education (incl. Global Academy / Imedex)",
+   "RMEI Medical Education",
+   "Voxmedia",
+   "Physicians' Education Resource (PER)",
+   "Global Education Group / MedliveCME",
+   "American Academy of CME",
+   "Academic CME",
+   "Medtelligence",
+   "ReachMD",
+   "Postgraduate Healthcare Education (Power-Pak)"
+  ],
+  "active": [
+   "Medscape Education (activities confirmed; objectives behind login / HTTP 402)",
+   "Med-IQ (ATTR-CM, oHCM, Factor XIa, transplant; objectives JS-rendered)",
+   "PlatformQ Health / FreeCME (platform active; joint-provider activities)",
+   "The France Foundation (hypoparathyroidism, bronchiectasis; objectives not on public page)",
+   "Haymarket Medical Education / myCME / freeCME (IgAN, PsA/axSpA; objectives gated)",
+   "DKBmed + PIM (ECHO HBV; objectives verbatim but activity date not stated)",
+   "Catalyst Medical Education + AKH (atopic dermatitis learning center; per-activity objectives not public)",
+   "Annenberg Center for Health Sciences (activities present; pages errored / older)",
+   "Vindico Medical Education (AAO 2025 + Hawaiian Eye ophthalmology satellites; objectives 403-blocked)",
+   "NACE (cardio-kidney-metabolic & cardiology conferences; objectives JS-gated)",
+   "Omnia Education (women's health, FNAIT, PPD; objectives robots-blocked)",
+   "Pri-Med (primary-care industry theaters; objectives in gated SharePoint)",
+   "Focus Medical Communications (GI, hepatology, rheumatology; objectives on downstream sites)",
+   "Amedco (joint-accreditation partner; objectives on partner/congress sites)",
+   "Meniscus Educational Institute (fetch-blocked)",
+   "Projects In Knowledge / @Point of Care (JS single-page app)",
+   "Pharmacy Times CE (cardiology/ID/diabetes days; objectives behind registration)",
+   "Imedex (absorbed into HMP)"
+  ],
+  "none": [
+   "touchIME / touchMEDICAL (UK)",
+   "COR2ED (EU)",
+   "Creative Educational Concepts (CEC)",
+   "PRIME Education",
+   "CMEology",
+   "i3 Health (oncology)",
+   "MediCom Worldwide (oncology public footprint)",
+   "Curio Science (oncology; Vaniam Group)",
+   "Spire Learning",
+   "Paradigm Medical Communications",
+   "Terranova Medica",
+   "Answers in CME",
+   "Impact Education",
+   "Efficient CMEnterprise (KnowFully)",
+   "Integrity Continuing Education",
+   "Vemco MedEd",
+   "Practicing Clinicians Exchange",
+   "PeerVoice",
+   "Oakstone / CMEinfo (board review)",
+   "Cine-Med (surgery)",
+   "MJH Life Sciences / HCPLive (clinical news portal)",
+   "Potomac Center for Medical Education",
+   "ArcheMedX (trial-training tech vendor)",
+   "AudioDigest (subscription board review)",
+   "Educational Symposia (tuition live CME)",
+   "Medical Education Resources (joint-provider services)",
+   "Applied Clinical Education (site fetch-blocked — needs manual check)"
+  ],
+  "client": [
+   "Clinical Care Options (CCO)",
+   "ProCE",
+   "Partners for Advancing Clinical Education (PACE)",
+   "Onviv",
+   "liV — all under Clinical Education Alliance, now Decera Clinical (excluded as your own brands)"
+  ]
+ },
+ "SOURCES": [
+  [
+   "PeerView ATTR-CA slides",
+   "https://c.peerview.com/live/programs/150210840-1/downloads/PVI_slides_25ATTR-CA.pdf"
+  ],
+  [
+   "PeerView HCM slides",
+   "https://c.peerview.com/live/programs/150211230-1/downloads/PVI_slides_25-HCM.pdf"
+  ],
+  [
+   "PeerView PsA+Obesity slides",
+   "https://c.peerview.com/live/programs/150210921-1/downloads/PVI_slides_PsAObesity25.pdf"
+  ],
+  [
+   "Med Learning Group — CKM",
+   "https://medlearninggroup.com/cme-programming/bridging-the-gaps-a-multidisciplinary-approach-to-cardio-renal-metabolic-conditions-from-early-detection-to-personalized-therapeutic-strategies/"
+  ],
+  [
+   "PER — Cardio-Kidney-Metabolic",
+   "https://www.gotoper.com/courses/cases-and-conversations-uniting-heart-and-kidney-care-optimizing-outcomes-in-cardio-kidney-metabolic-disorders-enduring"
+  ],
+  [
+   "American Academy of CME — HF/cardiorenal",
+   "https://www.freecme.com/products/on-the-front-lines-of-heart-failure-best-practices-and-evolving-evidence-in-cardiorenal-care-for-the-multidisciplinary-team"
+  ],
+  [
+   "Global Education Group/MedliveCME — IgAN",
+   "https://www.freecme.com/products/igan-management-today-disease-biology-and-targeted-therapy"
+  ],
+  [
+   "CME Outfitters — CKM",
+   "https://www.cmeoutfitters.com/activity/livestream-improving-early-identification-and-integrated-management-of-cardio-renal-metabolic-risk-in-family-medicine/"
+  ],
+  [
+   "CME Outfitters — IBD+obesity",
+   "https://www.cmeoutfitters.com/activity/livestream-beyond-the-bowel-addressing-obesity-as-a-modifiable-driver-of-ibd-outcomes/"
+  ],
+  [
+   "CME Outfitters — CIDP Masterclass",
+   "https://www.cmeoutfitters.com/activity/cidp-masterclass-early-diagnosis-emerging-options-better-outcomes/"
+  ],
+  [
+   "Prova Education — Psoriasis IL-23",
+   "https://provaeducation.com/programs/cme/clear-skin-clear-path-transforming-psoriasis-care-with-durable-biologic-and-oral-il-23-innovations/49227/"
+  ],
+  [
+   "HMP Education — Chronic Hand Eczema",
+   "https://hmpeducation.com/node/33277"
+  ],
+  [
+   "HMP Education — Pulmonary Embolism",
+   "https://hmpeducation.com/node/33060"
+  ],
+  [
+   "RMEI — Hereditary Angioedema",
+   "https://www.rmei.com/ce_activity/current-emerging-therapies-treating-preventing-hereditary-angioedema-attacks-in-children-adults/"
+  ],
+  [
+   "Voxmedia — ATTR-PN",
+   "https://markets.financialcontent.com/woonsocketcall/article/prlog-2025-10-7-2025-cme-aanem-program-seek-find-and-treat-best-practices-for-managing-patients-with-transthyretin-amyloid-polyneuropathy-attr-pn"
+  ],
+  [
+   "ACHL — Atopic Dermatitis",
+   "https://www.achlcme.org/detail/5440/establishing-multidisciplinary-clinical-pathways-for-selecting-and-sequencing-systemic-treatments-for-moderate-to-severe-atopic-dermatitis"
+  ],
+  [
+   "ACHL — IBD",
+   "https://www.achlcme.org/detail/5343/establishing-multidisciplinary-clinical-pathways-for-proactive-individualized-treatment-of-inflammatory-bowel-disease"
+  ],
+  [
+   "ACHL — AATD",
+   "https://www.achlcme.org/detail/5469/are-you-and-your-team-ready-evolving-opportunities-to-identify-at-risk-patients-and-change-the-trajectory-of-alpha-1-antitrypsin-deficiency-(aatd)-associated-liver-disease"
+  ],
+  [
+   "ACHL — Pulmonary Fibrosis",
+   "https://www.achlcme.org/detail/5627/exploring-the-therapeutic-potential-of-emerging-therapies-in-pulmonary-fibrosis"
+  ],
+  [
+   "ACHL — Fibrosing ILDs",
+   "https://www.achlcme.org/detail/5404/interprofessional-strategies-for-mitigating-diagnostic-and-treatment-delays-in-patients-with-fibrosing-ilds"
+  ],
+  [
+   "Decera — CKM (FMX 2025)",
+   "https://deceraclinical.com/education/events/management-of-cardio-renal-metabolic-disease/management-of-cardio-renal-metabolic-disease/20675-34154"
+  ],
+  [
+   "Decera — HF SGLT2 (HFSA 2025)",
+   "https://deceraclinical.com/education/events/heart-failure-treatment-with-sglt2-inhibitors/20774"
+  ],
+  [
+   "Decera — PsA + Obesity",
+   "https://deceraclinical.com/education/activities/rheumatology/whole-body-psa-and-obesity-care/162604/info"
+  ],
+  [
+   "Decera — T2D basal insulin",
+   "https://deceraclinical.com/education/activities/endocrinology-diabetes-metabolism/t2d-management-with-weekly-insulin/65752-162589/info"
+  ],
+  [
+   "Decera — HS (IDS 2026)",
+   "https://deceraclinical.com/education/events/hidradenitis-suppurativa-mechanistic-insights-and-biologic-innovation/hidradenitis-suppurativa-mechanistic-insights-and-biologic-innovation/28584-51171"
+  ],
+  [
+   "Decera — DDW 2026 (HBV + IBD)",
+   "https://deceraclinical.com/education/content/hbv-ibd-chicago-2026"
+  ],
+  [
+   "ReachMD IgAN new-paradigm CME",
+   "https://reachmd.com/programs/cme/a-new-paradigm-in-igan-managementadvancing-clinical-practice-in-the-era-of-therapeutic-expansion/54415/"
+  ],
+  [
+   "CME Outfitters gMG FcRn dosing",
+   "https://www.cmeoutfitters.com/activity/optimizing-dosing-scheduling-in-a-partial-responder/"
+  ],
+  [
+   "Integrity CE GPP flare (IL-36)",
+   "https://www.freecme.com/products/treating-and-preventing-gpp-flare-acute-vs-chronic"
+  ],
+  [
+   "Academic CME IgAN continuity",
+   "https://academiccme.com/front-matter/from-pcp-to-nephrologist-supportive-patient-education-to-achieve-continuity-of-care-and-adherence-to-optimal-treatment-strategies-in-iga-nephropathy/"
+  ],
+  [
+   "PER Postgame IgAN (ANNA)",
+   "https://www.gotoper.com/courses/per-postgame-updates-in-the-management-of-iga-nephropathy"
+  ],
+  [
+   "ACHL geographic atrophy",
+   "https://cme.uchicago.edu/GA2025"
+  ],
+  [
+   "CME Outfitters eosinophilic esophagitis",
+   "https://www.cmeoutfitters.com/activity/revolutionizing-care-innovative-approaches-to-eosinophilic-esophagitis-treatment-and-management/"
+  ]
+ ],
+ "SUPPORTERS": [
+  {
+   "match": [
+    "boehringer"
+   ],
+   "name": "Boehringer Ingelheim",
+   "focus": "Two engines — cardio-renal-metabolic (finerenone/GDMT, CKM) and progressive fibrosing lung disease (IPF, PPF, SARD-ILD) — plus a rare-derm bet in GPP (IL-36).",
+   "cost": "If BI-relevant education lags, fibrosing-ILD diagnostic delay persists and patients lose irreversible lung function before antifibrotics start; on the CKM side the cardiology–nephrology–primary-care 'who owns the patient' confusion keeps finerenone/SGLT2 underused. A grant deferred one quarter is a full congress cycle of clinicians not re-trained before the next guideline update.",
+   "opp": "Decera already runs cardio-renal-metabolic and HF/SGLT2 — so instead of repeating CKM, differentiate on the fibrosing-ILD side no competitor teaches as a cross-specialty referral problem: a rheumatology↔pulmonology SARD-ILD co-management program (who screens, when to refer, when to start antifibrotics). It pairs BI's IPF/PPF and immunology interests and is white space against single-specialty ILD sessions."
+  },
+  {
+   "match": [
+    "novartis"
+   ],
+   "name": "Novartis",
+   "focus": "Complement and B-cell immunology across nephrology (IgAN — complement) and rheumatology (Sjögren's — B-cell depletion).",
+   "cost": "IgAN is the most crowded competitor topic in this dataset. If the Novartis complement narrative isn't reinforced in-window it is drowned out by APRIL/BAFF and endothelin messaging from Vertex, Travere and others — and share-of-voice lost in a launch window is nearly impossible to recover.",
+   "opp": "Everyone teaches IgAN 'mechanism of novel agents.' Decera's un-owned slot is a sequencing & treat-to-target program — how to layer complement, endothelin and APRIL agents against proteinuria thresholds over time — which no competitor activity addresses and which carries a payer/real-world-evidence angle Decera can own."
+  },
+  {
+   "match": [
+    "travere"
+   ],
+   "name": "Travere Therapeutics",
+   "focus": "Single-asset IgAN focus with an unusual tilt toward nursing and primary-care continuity rather than specialist mechanism.",
+   "cost": "Travere's edge is adherence and continuity, not mechanism. If that education stalls, the PCP→nephrologist handoff gap stays open and early proteinuria control — the window where their asset differentiates — is lost. IgAN treatment initiation is front-loaded, so timing is decisive.",
+   "opp": "Competitors aim IgAN at nephrologists; Travere already funds nurses and PCPs. Decera can build the first IgAN care-team pathway program (PCP screening → referral triggers → nurse-led adherence monitoring) — interprofessional CE that specialist-only decks don't touch."
+  },
+  {
+   "match": [
+    "astrazeneca"
+   ],
+   "name": "AstraZeneca",
+   "focus": "Enabling optimal guideline-directed therapy — hyperkalemia management so RAASi/GDMT isn't down-titrated, plus ATTRv amyloid polyneuropathy diagnosis.",
+   "cost": "The hyperkalemia story is really a GDMT-continuation story. If clinicians aren't taught to manage potassium instead of stopping RAASi/MRAs, patients stay under-treated for HF/CKD and the binder rationale never lands. ATTR delay means years of continued misdiagnosis.",
+   "opp": "Hyperkalemia is already covered by Medtelligence and Power-Pak. Decera's white space is folding it into its existing cardio-renal-metabolic program as a 'keep patients on GDMT' retention module tied to real HF outcomes, rather than a standalone potassium-binder talk."
+  },
+  {
+   "match": [
+    "johnson",
+    "janssen"
+   ],
+   "name": "Johnson & Johnson / Janssen",
+   "focus": "Immunology breadth — IL-23 dermatology (psoriasis), FcRn neuromuscular (gMG), and IBD.",
+   "cost": "In gMG the field is shifting fast to FcRn and complement; if partial-responder management isn't taught now, clinicians default to old escalation patterns and newer agents are mis-sequenced. Derm IL-23 durability messaging is perishable as orals and biosimilars crowd in.",
+   "opp": "Decera runs PsA+obesity and HS — adjacent immuno-derm. The differentiated move is a cross-indication IL-23 / 'treat-to-target' program spanning psoriasis→PsA→IBD (same pathway, different organs), which competitors teach as siloed single-disease sessions."
+  },
+  {
+   "match": [
+    "lilly"
+   ],
+   "name": "Eli Lilly",
+   "focus": "Type-2 inflammation in derm (atopic dermatitis) plus the obesity–GI intersection (IBD + obesity), riding the incretin franchise into inflammatory disease.",
+   "cost": "The IBD–obesity link is still emerging. If it isn't taught, clinicians miss obesity as a modifiable driver of IBD outcomes and the incretin-era opportunity — a moment time-boxed to the current GLP-1 wave.",
+   "opp": "CME Outfitters already did IBD+obesity for Lilly. Decera can leapfrog with an obesity-as-a-cross-cutting-driver series spanning IBD, PsA and cardiometabolic disease (all already in Decera's portfolio) — one metabolic thread through multiple therapeutic areas, which no competitor packages."
+  },
+  {
+   "match": [
+    "takeda"
+   ],
+   "name": "Takeda",
+   "focus": "GI (IBD) plus rare pulmonary/hepatic alpha-1 antitrypsin deficiency (AATD).",
+   "cost": "AATD is chronically underdiagnosed — years of delay, irreversible emphysema and liver disease. Every cycle without clinician education is measurable lost lung function and missed genetic testing.",
+   "opp": "Decera can own an AATD case-finding program targeting the primary-care/pulmonology screening gap (who to test, how to interpret), an area only lightly touched by ACHL — pairing Takeda's rare-disease and GI/hepatology interests."
+  },
+  {
+   "match": [
+    "csl vifor",
+    "vifor"
+   ],
+   "name": "CSL Vifor",
+   "focus": "Nephrology franchise — hyperkalemia binders and IgAN.",
+   "cost": "Overlaps AstraZeneca's potassium story; if the nephrology-specific continuation message lags, MRAs/RAASi keep getting stopped in CKD and renal-anemia adjacencies go untaught.",
+   "opp": "Differentiate from the crowded hyperkalemia field with a nephrology 'protect the kidney, keep the GDMT' pathway bundling hyperkalemia, anemia and IgAN into one CKD-progression program — integrated rather than single-drug."
+  },
+  {
+   "match": [
+    "vertex"
+   ],
+   "name": "Vertex Pharmaceuticals",
+   "focus": "Nephrology entry via the IgAN complement pathway.",
+   "cost": "A new nephrology entrant in the most saturated topic here; without early education its mechanism is lost against incumbents and launch-window share-of-voice is unrecoverable.",
+   "opp": "Same un-owned slot as Novartis — Decera's sequencing / treat-to-target IgAN program; layer Vertex's mechanism into a comparative framework rather than a solo-agent talk."
+  },
+  {
+   "match": [
+    "regeneron",
+    "sanofi"
+   ],
+   "name": "Regeneron / Sanofi",
+   "focus": "Type-2 inflammation flagship (dupilumab) extending into eosinophilic esophagitis and allergy/derm.",
+   "cost": "EoE is newly a biologic-eligible disease. If GI/allergy clinicians aren't taught the Th2 pathophysiology and long-term care model, patients stay on PPIs/diet alone and biologic-eligible patients go unidentified.",
+   "opp": "CME Outfitters just launched EoE for them. Decera can differentiate with a GI↔allergy co-management EoE program (the two specialties rarely co-educate) linked to the broader type-2 story across AD, asthma and CRSwNP — an integrated curriculum competitors fragment."
+  },
+  {
+   "match": [
+    "astellas"
+   ],
+   "name": "Astellas",
+   "focus": "Retina / complement — geographic atrophy in dry AMD.",
+   "cost": "GA is irreversible and progressive and the clinical debate is whether/when to treat given burden. Without a decision framework now, eligible patients progress to central vision loss before the treat/no-treat conversation happens.",
+   "opp": "ACHL's GA session is single-specialty. Decera's angle: a benefit–burden shared-decision GA program with patient-facing decision aids (injection frequency vs slowing progression) — decision science, not just trial data, in an ophthalmology lane where Decera has little competition."
+  },
+  {
+   "match": [
+    "genentech"
+   ],
+   "name": "Genentech",
+   "focus": "Immunology — SLE and lupus nephritis.",
+   "cost": "Lupus nephritis outcomes hinge on early aggressive therapy; delayed education means continued renal damage before newer agents are used and a persistent rheumatology–nephrology coordination gap.",
+   "opp": "Decera can build the rheumatology↔nephrology LN co-management pathway (who leads, when to biopsy, how to escalate) — an interprofessional slot single-specialty SLE talks leave open."
+  },
+  {
+   "match": [
+    "insmed"
+   ],
+   "name": "Insmed",
+   "focus": "Rare pulmonary — non-CF bronchiectasis (DPP-1 mechanism).",
+   "cost": "A first-in-class approval window; if pulmonologists aren't taught to identify and phenotype bronchiectasis now, the eligible population stays under-recognized and the launch under-performs.",
+   "opp": "Almost no competitor education here (only Power-Pak). Decera can own bronchiectasis end-to-end — case-finding → phenotyping → new-mechanism positioning — an uncontested rare-pulmonary lane."
+  },
+  {
+   "match": [
+    "apellis"
+   ],
+   "name": "Apellis Pharmaceuticals",
+   "focus": "Complement in rare kidney disease (C3 glomerulopathy).",
+   "cost": "Ultra-rare and newly treatable; without shared-decision education the tiny eligible population is missed entirely.",
+   "opp": "Decera can pair C3G with its IgAN/complement work into a complement-in-nephrology mini-curriculum — one immunology thread across rare kidney diseases, which no one bundles."
+  },
+  {
+   "match": [
+    "intellia",
+    "pharming",
+    "pharvaris"
+   ],
+   "name": "HAE group (Intellia · Pharming · Pharvaris)",
+   "focus": "Hereditary angioedema — on-demand + prophylaxis + emerging gene editing.",
+   "cost": "HAE is diagnostically delayed by years; if allergy/PCP education lags, attacks are mismanaged and prophylaxis or gene-editing candidates are never identified.",
+   "opp": "RMEI owns the generic HAE talk. Decera's differentiated slot is an HAE long-term therapy-selection program (on-demand vs prophylaxis vs one-time gene editing — how to choose and counsel), a decision framework competitors don't offer."
+  }
+ ]
+}

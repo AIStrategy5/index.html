@@ -1,0 +1,45 @@
+name: Weekly dashboard refresh
+
+on:
+  schedule:
+    # 20:00 UTC Monday = 3:00 PM US Central (CDT). After Nov DST switch to '0 21 * * 1' for 3 PM CST.
+    - cron: '0 20 * * 1'
+  workflow_dispatch: {}          # lets you run it manually from the Actions tab
+  push:
+    paths:
+      - 'data.json'              # rebuild automatically whenever the dataset changes
+      - 'template.html'
+      - 'generate.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-dashboard
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build & encrypt dashboard
+        env:
+          DASHBOARD_PASSWORD: ${{ secrets.DASHBOARD_PASSWORD }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional; enables weekly auto-research
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}       # optional
+        run: node generate.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html data.json
+          if git diff --cached --quiet; then
+            echo "No changes this run."
+          else
+            git commit -m "Auto dashboard refresh ($(date -u +%Y-%m-%d))"
+            git push
+          fi
