@@ -1277,7 +1277,9 @@
    "AudioDigest (subscription board review)",
    "Educational Symposia (tuition live CME)",
    "Medical Education Resources (joint-provider services)",
-   "Applied Clinical Education (site fetch-blocked — needs manual check)"
+   "Applied Clinical Education (site fetch-blocked — needs manual check)",
+   "4P Medical Education (named for review) — no distinct CME provider found under this or any spelling variant; unverifiable / likely not an active satellite-symposium producer",
+   "AchieveCE — verified real (achievece.com) but a state-license-renewal CE provider for nursing/pharmacy/allied health, not an industry-supported satellite-symposium physician CME producer; no non-oncology specialty symposia to verify"
   ],
   "client": [
    "Clinical Care Options (CCO)",
